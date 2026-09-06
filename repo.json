@@ -1,0 +1,104 @@
+[
+  {
+    "Author": "Aleqsd",
+    "Name": "Hotbar Atelier",
+    "InternalName": "HotbarAtelier",
+    "AssemblyVersion": "0.5.1.0",
+    "Description": "15 bordures et 12 formes aux coins transparents. Textes masquables, click-through, taille continue et placement libre par barre. Réglages organisés par usage dans une interface fixe. Version expérimentale à valider en jeu. Démarre arrêté ; /hotbaratelier pour les réglages et /hotbaratelier off pour restaurer. Version expérimentale ; essais en jeu encore à confirmer.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Aleqsd/hotbar-atelier",
+    "Tags": [
+      "hotbar",
+      "hud",
+      "ui",
+      "customization"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Formes, bordures, taille précise et disposition de vos dix barres d'actions.",
+    "AcceptsFeedback": true,
+    "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/HotbarAtelier.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/0fdebfa49da9fa97d95f73b444de100d8c7aafbc/docs/images/settings.png"
+    ],
+    "LastUpdate": 1788733630,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "0.5.1.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/HotbarAtelier-0.5.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/HotbarAtelier-0.5.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/HotbarAtelier-0.5.1-dalamud.zip",
+    "Changelog": "Présentation des réglages fixe ; personnalisation des barres conservée."
+  },
+  {
+    "Author": "Aleqsd",
+    "Name": "Codex Monitor",
+    "InternalName": "CodexMonitor",
+    "AssemblyVersion": "0.6.1.0",
+    "Description": "Affiche les tâches Codex du PC, leurs états et les demandes d'intervention. Nécessite le relais local Codex Monitor. Version expérimentale ; essais en jeu encore à confirmer. Le relais local se lance séparément ; voir le README.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "codex",
+      "monitor",
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Vos tâches Codex, directement dans FF14.",
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/Aleqsd/codex-monitor",
+    "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CodexMonitor.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/Aleqsd/codex-monitor/3a83f34376218c9b6561690823fc15826d43e0b1/docs/images/tasks.png"
+    ],
+    "LastUpdate": 1788733763,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "0.6.1.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/CodexMonitor-0.6.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/CodexMonitor-0.6.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/CodexMonitor-0.6.1-dalamud.zip",
+    "Changelog": "Réglages fixes, design des notifications et masquage réversible des questions."
+  },
+  {
+    "Author": "Aleqsd",
+    "Name": "Minimap Zoom",
+    "InternalName": "MinimapZoom",
+    "AssemblyVersion": "0.4.1.0",
+    "Description": "Zoom réglable, mini-carte carrée, cadres personnalisables, filtres de marqueurs et tailles d’icônes indépendantes. Démarrage discret et zoom mémorisé en option. Réglages dans /minizoom. Client 2026.08.11.0000.0000. Version expérimentale ; essais en jeu encore à confirmer.",
+    "Punchline": "Voir plus loin sur la mini-carte native.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": true,
+    "CanUnloadAsync": false,
+    "Tags": [
+      "minimap",
+      "map",
+      "zoom",
+      "ui"
+    ],
+    "IsHide": false,
+    "RepoUrl": "https://github.com/Aleqsd/minimap-zoom",
+    "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/MinimapZoom.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/8c9844c45262e95242821be6bd0a460168c698d3/docs/images/settings-map.png"
+    ],
+    "LastUpdate": 1788733965,
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "0.4.1.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/MinimapZoom-0.4.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/MinimapZoom-0.4.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-1/MinimapZoom-0.4.1-dalamud.zip",
+    "Changelog": "Réglages fixes et masquage séparé de la météo et des boutons."
+  }
+]
