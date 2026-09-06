@@ -12,7 +12,7 @@ Les tâches propriétaires ont compilé avec .NET 10.0.400, Dalamud.NET.Sdk 15.0
 
 La tâche de publication a relu les rapports de build, recomputé les empreintes des trois DLL et vérifié les sources publiques, les déclarations d'assets, les TOML et les 12 PNG. Les icônes sont carrées, en 256 × 256. `assets.json` trace les images. Les trois noms étaient absents de `testing/live` et `stable` au contrôle du dépôt D17 ; revérifier avant l'envoi.
 
-Les modifications des branches portent sur la documentation, les métadonnées et, pour Minimap Zoom, le build. Aucun fichier de logique native `.cs` n'a changé. Le catalogue public, les releases existantes et les DLL en cours d'utilisation n'ont pas été remplacés pendant cette préparation. GitHub Actions reste désactivé. Aucun message aux approbateurs ni PR officielle n'a été envoyé ; le service Plogon n'a donc pas encore compilé ces sources.
+Les modifications des branches portent sur la documentation, les métadonnées et, pour Minimap Zoom, le build. Aucun fichier de logique native `.cs` n'a changé. Le catalogue public, les releases existantes et les DLL en cours d'utilisation n'ont pas été remplacés pendant cette préparation. Aucun workflow GitHub Actions n'a été ajouté ni activé par cette préparation. Aucun message aux approbateurs ni PR officielle n'a été envoyé ; le service Plogon n'a donc pas encore compilé ces sources.
 
 ## À terminer avant la soumission
 
