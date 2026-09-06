@@ -176,6 +176,12 @@ def build(config):
             previous = old.get(current["InternalName"])
             if previous and version(current["AssemblyVersion"]) < version(previous["AssemblyVersion"]):
                 raise ValueError("Version rollback is not an update")
+    if (ROOT / "catalogue.lock.json").exists():
+        old_records = {r["InternalName"]: r for r in read_json(ROOT / "catalogue.lock.json")["plugins"]}
+        for current in records:
+            previous = old_records.get(current["InternalName"])
+            if previous and version(current["AssemblyVersion"]) == version(previous["AssemblyVersion"]) and current["DllSha256"] != previous["DllSha256"]:
+                raise ValueError("A changed DLL requires a higher assembly version")
     write_json(output / "repo.json", entries)
     write_json(output / "catalogue.lock.json", {"packageRelease": release_tag, "plugins": records})
     (output / "SHA256SUMS.txt").write_text("".join(f"{r['PackageSha256']}  {r['Package']}\n" for r in records), encoding="utf-8")
