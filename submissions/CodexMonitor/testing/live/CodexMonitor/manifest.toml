@@ -1,0 +1,6 @@
+[plugin]
+repository = "https://github.com/Aleqsd/codex-monitor.git"
+commit = "7958d1930ae9dbd4200d7c26a5ecd889643c8a8f"
+owners = ["Aleqsd"]
+project_path = "src"
+changelog = "First testing version. Follow Codex tasks with a small HUD and notifications. A separate local relay is required; open /codex for the task list."

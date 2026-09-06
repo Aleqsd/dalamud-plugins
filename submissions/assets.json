@@ -1,0 +1,98 @@
+[
+  {
+    "file": "HotbarAtelier/testing/live/HotbarAtelier/images/icon.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/11e1199f78acef874209491a899c368d6c82d46e/icons/HotbarAtelier.png",
+    "sha256": "202ee5e3624ca868bee0bf7ab159beca2681cd0c302ce130def95b7f4adc86c1",
+    "width": 256,
+    "height": 256,
+    "caption": "Icon created with Codex; MIT licence."
+  },
+  {
+    "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image1.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/icon-shapes.png",
+    "sha256": "561a8b5cd500340f454fb14af0f3d9fa548cfadd24534aa51b68fecb9ca2f458",
+    "width": 1000,
+    "height": 688,
+    "caption": "Twelve shapes rendered from plugin code outside the game; demonstration artwork created with Codex. AGPL-3.0-or-later."
+  },
+  {
+    "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image2.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/icon-borders.png",
+    "sha256": "480eed45d51964f349c1f96cdce1b639017720ff3f62dfe77cb063641ecbc67b",
+    "width": 1000,
+    "height": 688,
+    "caption": "Fifteen procedural borders rendered outside the game; assets created with Codex. AGPL-3.0-or-later."
+  },
+  {
+    "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image3.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/settings.png",
+    "sha256": "4621657eb2352af1c71a68c194c8bbec960d5fc13701a8765ac4eb47e4730f3f",
+    "width": 830,
+    "height": 840,
+    "caption": "Real ImGui settings rendered outside the game, with demonstration data. AGPL-3.0-or-later."
+  },
+  {
+    "file": "CodexMonitor/testing/live/CodexMonitor/images/icon.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/11e1199f78acef874209491a899c368d6c82d46e/icons/CodexMonitor.png",
+    "sha256": "9c8256484c471bc725bca400b0bdbe3c899f30c6fe5108243b4eaa264bb23aa2",
+    "width": 256,
+    "height": 256,
+    "caption": "Icon created with Codex; MIT licence."
+  },
+  {
+    "file": "CodexMonitor/testing/live/CodexMonitor/images/image1.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/tasks.png",
+    "sha256": "a2ab562e7883ed425b57e2826e31bcc54e900707b245c9d99bfa0c1889ea2af8",
+    "width": 800,
+    "height": 900,
+    "caption": "Real ImGui task view, rendered outside the game with fictional data. Original source: MIT."
+  },
+  {
+    "file": "CodexMonitor/testing/live/CodexMonitor/images/image2.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/mini-huds.png",
+    "sha256": "8ef3530d99e7897b29bf1b0226ba89c3ae3db413355808e2d6c19ba40e4e5da0",
+    "width": 800,
+    "height": 500,
+    "caption": "Six HUD formats drawn by the actual ImGui components, outside the game with fictional data. Original source: MIT."
+  },
+  {
+    "file": "CodexMonitor/testing/live/CodexMonitor/images/image3.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/notifications.png",
+    "sha256": "0b3675034f935172749c08ae7b60819f52afd360406569c7d141024e4553a107",
+    "width": 680,
+    "height": 650,
+    "caption": "Actual notification components rendered outside the game with fictional data. Original source: MIT."
+  },
+  {
+    "file": "MinimapZoom/testing/live/MinimapZoom/images/icon.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/11e1199f78acef874209491a899c368d6c82d46e/icons/MinimapZoom.png",
+    "sha256": "ca3fd540b13e4d808dc9c0238911c287272cb8c120914be8104c126ce3a2e896",
+    "width": 256,
+    "height": 256,
+    "caption": "Icon created with Codex; MIT licence."
+  },
+  {
+    "file": "MinimapZoom/testing/live/MinimapZoom/images/image1.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/minimap-in-game.png",
+    "sha256": "5110715141606cbf151a29c8dd007148074b811ccd31a4bb8b6777723c010034",
+    "width": 270,
+    "height": 311,
+    "caption": "In-game minimap screenshot supplied by Aleqsd. FFXIV game elements belong to their respective rights holders."
+  },
+  {
+    "file": "MinimapZoom/testing/live/MinimapZoom/images/image2.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/settings-map.png",
+    "sha256": "f8db8c0f89fe5f5bacbfa084b96fdb32973a95798fbadb32f33ac73d2562a82a",
+    "width": 574,
+    "height": 769,
+    "caption": "Real ImGui map settings rendered outside the game. Original source: MIT."
+  },
+  {
+    "file": "MinimapZoom/testing/live/MinimapZoom/images/image3.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/settings-markers.png",
+    "sha256": "4e938456e5f99e6b01dd033d903e589e958356ce00c4b2380250e4a56b0cf6e1",
+    "width": 574,
+    "height": 829,
+    "caption": "Real ImGui marker settings rendered outside the game. Original source: MIT."
+  }
+]

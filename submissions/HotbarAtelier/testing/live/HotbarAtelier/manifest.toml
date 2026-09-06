@@ -1,0 +1,6 @@
+[plugin]
+repository = "https://github.com/Aleqsd/hotbar-atelier.git"
+commit = "55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3"
+owners = ["Aleqsd"]
+project_path = "src"
+changelog = "First testing version. Customise keyboard hotbar shapes, borders, colours and layouts. Open /hotbaratelier to get started."
