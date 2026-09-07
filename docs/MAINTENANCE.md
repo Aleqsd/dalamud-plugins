@@ -6,7 +6,7 @@ Ce dépôt distribue des archives adaptées à l'installateur Dalamud. Les DLL r
 
 Prérequis : Python 3.10+, Git et `gh` connecté à Aleqsd. Aucun workflow GitHub Actions.
 
-1. Partir d'une release publiée et vérifiée du plugin. Relever son commit, son nom d'archive et les SHA256 de l'archive et de la DLL via `gh api`.
+1. Partir d'une release publiée et vérifiée du plugin. Relever son commit, son nom d'archive et son SHA256 via `gh api`. Épingler aussi le SHA256 de la DLL transmis par la tâche propriétaire et le vérifier dans l'archive téléchargée. Si une DLL est publiée comme asset séparé, son empreinte GitHub doit également correspondre ; cet asset est facultatif.
 2. Actualiser son entrée dans `sources.json` : tag, commit, hashes, fichiers nécessaires, aperçu et changelog court. `installationNote`, si présente, complète la description du catalogue avec les prérequis de cette version. Ne pas retirer une dépendance de runtime requise. Garder les mêmes `InternalName`.
 3. Choisir un nouveau `packageRelease` unique (par exemple `catalogue-2026-09-08-1`). Ne pas écraser les archives déjà publiées.
 4. Exécuter :

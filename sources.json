@@ -1,11 +1,11 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-5",
+  "packageRelease": "catalogue-2026-09-07-6",
   "plugins": [
     {
       "repo": "hotbar-atelier",
       "id": "HotbarAtelier",
-      "tag": "v0.5.2",
+      "tag": "v0.6.0",
       "prefix": "plugin/",
       "files": [
         "HotbarAtelier.dll",
@@ -13,13 +13,13 @@
         "HotbarAtelier.deps.json"
       ],
       "image": "docs/images/settings.png",
-      "archive": "HotbarAtelier-0.5.2.zip",
-      "archiveSha256": "f60e343391a519cad32ef345062a8d53f3541e7f4596c0d3686f92772379c056",
-      "dllSha256": "87a1394fdc67481caa381d944c4a5ac5f2746e0baed8d0536ee6c431dcc5d582",
-      "publishedAt": "2026-09-07T07:16:27Z",
-      "commit": "b18e70fe4ca8a548118f09e2965567b1908848a5",
+      "archive": "HotbarAtelier-0.6.0.zip",
+      "archiveSha256": "7e29b7611ae410c0adc121c90c64f6d1785cf3251ad606ff54a788f3f6f4acff",
+      "dllSha256": "c41fdf83f07f056338df996114199fd59b1495f3eea68e9068d84526848f69e5",
+      "publishedAt": "2026-09-07T10:16:13Z",
+      "commit": "60ae426837d301692cd097ec2227e0a2b0e8d47b",
       "icon": "icons/HotbarAtelier.png",
-      "changelog": "Les réglages restent fermés au chargement du plugin. Ouvrez-les avec /hotbaratelier ou le bouton de configuration Dalamud."
+      "changelog": "Presets, édition groupée, copie partielle, annuler/rétablir et profils par job/personnage. Bordures, disposition et visibilité améliorées ; import avec aperçu. Démarrage automatique facultatif, réglages fermés au chargement."
     },
     {
       "repo": "codex-monitor",

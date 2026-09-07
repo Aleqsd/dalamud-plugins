@@ -102,9 +102,11 @@ def build(config):
         if metadata["draft"] or commit != item["commit"]:
             raise ValueError(f"Unpublished or moved source tag: {repo}")
         original_asset = next(a for a in metadata["assets"] if a["name"] == item["archive"])
-        dll_asset = next(a for a in metadata["assets"] if a["name"] == internal + ".dll")
-        if original_asset.get("digest") != "sha256:" + item["archiveSha256"] or dll_asset.get("digest") != "sha256:" + item["dllSha256"]:
+        dll_asset = next((a for a in metadata["assets"] if a["name"] == internal + ".dll"), None)
+        if original_asset.get("digest") != "sha256:" + item["archiveSha256"]:
             raise ValueError(f"Source release digest changed: {repo}")
+        if dll_asset is not None and dll_asset.get("digest") != "sha256:" + item["dllSha256"]:
+            raise ValueError(f"Standalone DLL digest changed: {repo}")
         cached = cache / item["archiveSha256"]
         data = cached.read_bytes() if cached.exists() else fetch(original_asset["browser_download_url"])
         if digest(data) != item["archiveSha256"]:
@@ -121,7 +123,7 @@ def build(config):
         if local.get("WorkingPluginId") or local.get("InstalledFromUrl") or local.get("Testing"):
             raise ValueError("Source manifest contains local installation state")
         if digest(files[internal + ".dll"]) != item["dllSha256"]:
-            raise ValueError("Archive DLL differs from individually released DLL")
+            raise ValueError("Archive DLL differs from the pinned DLL hash")
         icon = ROOT / item["icon"]
         icon_data = icon.read_bytes()
         png(icon_data)
