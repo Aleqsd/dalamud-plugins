@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-8",
+  "packageRelease": "catalogue-2026-09-07-9",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -24,7 +24,7 @@
     {
       "repo": "codex-monitor",
       "id": "CodexMonitor",
-      "tag": "v0.10.0",
+      "tag": "v0.11.0",
       "prefix": "plugin/",
       "files": [
         "CodexMonitor.dll",
@@ -32,14 +32,14 @@
         "CodexMonitor.deps.json"
       ],
       "image": "docs/images/tasks.png",
-      "archive": "codex-monitor-0.10.0.zip",
-      "archiveSha256": "caaf49efed84d5708c68c4f68bb093bcd0fdb6421faccfd435dadc64b23dd5b4",
-      "dllSha256": "b4d56c48ccf21b68be1a5f59e47ab45326737ee895981337d89d45b6e976fa03",
-      "publishedAt": "2026-09-07T11:15:48Z",
-      "commit": "2953b933349ca4c459e34fecd3a1d9f6d625243b",
+      "archive": "codex-monitor-0.11.0.zip",
+      "archiveSha256": "6e001b6e0023cc1d1a29bed8e7d55653f16d6d8dce6d558c8565f171b2ba7a90",
+      "dllSha256": "f88f759b4a79fe0dc53aa9fe9b1027f380b9040194c211d79c7bff73e5a469b2",
+      "publishedAt": "2026-09-07T13:01:14Z",
+      "commit": "8583f792e4ac931d3c4e9774b4962209a05bcefa",
       "icon": "icons/CodexMonitor.png",
-      "changelog": "Modèle, effort et réponses non lues par tâche. Suivi par projet, favoris, silence temporaire et compteurs HUD cliquables. Alertes regroupées, seuils de quota, historique filtrable et diagnostic guidé. Relancez le relais intégré après la mise à jour ; un relais externe se met à jour depuis son dossier.",
-      "installationNote": "Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté. Depuis Réglages → Connexion, relancez le relais intégré après la mise à jour pour le modèle, l'effort et le point bleu. Un relais externe se met à jour séparément."
+      "changelog": "Trois nouveaux HUD : Ruban, Focus et Tâche épinglée. Aperçu des tâches près du HUD, réglages réorganisés et notifications avec extrait de question facultatif. Vos choix HUD sont conservés. Relancez le relais intégré après la mise à jour ; un relais externe se met à jour depuis son dossier.",
+      "installationNote": "Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté. Après la mise à jour, relancez le relais intégré depuis Réglages → Connexion pour recevoir les extraits de questions. Un relais externe se met à jour et se relance depuis son dossier."
     },
     {
       "repo": "minimap-zoom",
