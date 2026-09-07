@@ -1,19 +1,19 @@
 {
-  "packageRelease": "catalogue-2026-09-07-5",
+  "packageRelease": "catalogue-2026-09-07-6",
   "plugins": [
     {
       "InternalName": "HotbarAtelier",
-      "AssemblyVersion": "0.5.2.0",
+      "AssemblyVersion": "0.6.0.0",
       "DalamudApiLevel": 15,
-      "SourceCommit": "b18e70fe4ca8a548118f09e2965567b1908848a5",
-      "SourceRelease": "https://github.com/Aleqsd/hotbar-atelier/releases/tag/v0.5.2",
-      "SourceArchiveSha256": "f60e343391a519cad32ef345062a8d53f3541e7f4596c0d3686f92772379c056",
-      "DllSha256": "87a1394fdc67481caa381d944c4a5ac5f2746e0baed8d0536ee6c431dcc5d582",
-      "Package": "HotbarAtelier-0.5.2-dalamud.zip",
-      "PackageSha256": "a337a48d3a25df044ea7659112578abccc6609adc08e52c455f85af01a8a8a12",
+      "SourceCommit": "60ae426837d301692cd097ec2227e0a2b0e8d47b",
+      "SourceRelease": "https://github.com/Aleqsd/hotbar-atelier/releases/tag/v0.6.0",
+      "SourceArchiveSha256": "7e29b7611ae410c0adc121c90c64f6d1785cf3251ad606ff54a788f3f6f4acff",
+      "DllSha256": "c41fdf83f07f056338df996114199fd59b1495f3eea68e9068d84526848f69e5",
+      "Package": "HotbarAtelier-0.6.0-dalamud.zip",
+      "PackageSha256": "80b2af17b2b215b0fe092b695bdcfff30674aaf4be402ced0efcaccb3eabcd03",
       "Icon": "icons/HotbarAtelier.png",
       "IconSha256": "202ee5e3624ca868bee0bf7ab159beca2681cd0c302ce130def95b7f4adc86c1",
-      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/b18e70fe4ca8a548118f09e2965567b1908848a5/docs/images/settings.png"
+      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/60ae426837d301692cd097ec2227e0a2b0e8d47b/docs/images/settings.png"
     },
     {
       "InternalName": "CodexMonitor",
