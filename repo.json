@@ -29,17 +29,17 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.6.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/HotbarAtelier-0.6.0-dalamud.zip",
     "Changelog": "Presets, édition groupée, copie partielle, annuler/rétablir et profils par job/personnage. Bordures, disposition et visibilité améliorées ; import avec aperçu. Démarrage automatique facultatif, réglages fermés au chargement."
   },
   {
     "Author": "Aleqsd",
     "Name": "Codex Monitor",
     "InternalName": "CodexMonitor",
-    "AssemblyVersion": "0.9.0.0",
-    "Description": "Affiche les tâches Codex du PC, leurs états et les demandes d'intervention. Nécessite le relais local Codex Monitor. Version expérimentale ; essais en jeu encore à confirmer. Lancez le relais depuis Réglages → Connexion. Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté.",
+    "AssemblyVersion": "0.10.0.0",
+    "Description": "Affiche les tâches Codex du PC, leurs états et les demandes d'intervention. Nécessite le relais local Codex Monitor. Version expérimentale ; essais en jeu encore à confirmer. Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté. Depuis Réglages → Connexion, relancez le relais intégré après la mise à jour pour le modèle, l'effort et le point bleu. Un relais externe se met à jour séparément.",
     "ApplicableVersion": "any",
     "Tags": [
       "codex",
@@ -56,17 +56,17 @@
     "RepoUrl": "https://github.com/Aleqsd/codex-monitor",
     "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CodexMonitor.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/Aleqsd/codex-monitor/e130bdffc5f01afdaf1f7ac5cbbe8df26de89f59/docs/images/tasks.png"
+      "https://raw.githubusercontent.com/Aleqsd/codex-monitor/2953b933349ca4c459e34fecd3a1d9f6d625243b/docs/images/tasks.png"
     ],
-    "LastUpdate": 1788776345,
+    "LastUpdate": 1788779748,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "0.9.0.0",
+    "TestingAssemblyVersion": "0.10.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/CodexMonitor-0.9.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/CodexMonitor-0.9.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/CodexMonitor-0.9.0-dalamud.zip",
-    "Changelog": "Ne pas déranger depuis les mini HUD, relais automatique facultatif après connexion au personnage, choix de période et diagnostic du quota. Compteurs, filtres et ouverture des tâches corrigés ; longues listes optimisées."
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/CodexMonitor-0.10.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/CodexMonitor-0.10.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/CodexMonitor-0.10.0-dalamud.zip",
+    "Changelog": "Modèle, effort et réponses non lues par tâche. Suivi par projet, favoris, silence temporaire et compteurs HUD cliquables. Alertes regroupées, seuils de quota, historique filtrable et diagnostic guidé. Relancez le relais intégré après la mise à jour ; un relais externe se met à jour depuis son dossier."
   },
   {
     "Author": "Aleqsd",
@@ -96,9 +96,9 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.5.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/MinimapZoom-0.5.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/MinimapZoom-0.5.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-7/MinimapZoom-0.5.0-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/MinimapZoom-0.5.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/MinimapZoom-0.5.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-8/MinimapZoom-0.5.0-dalamud.zip",
     "Changelog": "Profils par zone, raccourci de dézoom temporaire, opacité du fond, cadres et filtres améliorés. Réglages réorganisés ; vos préférences sont conservées dans Personnel."
   }
 ]
