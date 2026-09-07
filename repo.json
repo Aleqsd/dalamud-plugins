@@ -29,16 +29,16 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.5.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/HotbarAtelier-0.5.2-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/HotbarAtelier-0.5.2-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/HotbarAtelier-0.5.2-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/HotbarAtelier-0.5.2-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/HotbarAtelier-0.5.2-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/HotbarAtelier-0.5.2-dalamud.zip",
     "Changelog": "Les réglages restent fermés au chargement du plugin. Ouvrez-les avec /hotbaratelier ou le bouton de configuration Dalamud."
   },
   {
     "Author": "Aleqsd",
     "Name": "Codex Monitor",
     "InternalName": "CodexMonitor",
-    "AssemblyVersion": "0.7.0.0",
+    "AssemblyVersion": "0.8.0.0",
     "Description": "Affiche les tâches Codex du PC, leurs états et les demandes d'intervention. Nécessite le relais local Codex Monitor. Version expérimentale ; essais en jeu encore à confirmer. Lancez le relais depuis Réglages → Connexion. Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -56,17 +56,17 @@
     "RepoUrl": "https://github.com/Aleqsd/codex-monitor",
     "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CodexMonitor.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7cff4dc8e4481ef837942dcbe58d94fb4baf721d/docs/images/tasks.png"
+      "https://raw.githubusercontent.com/Aleqsd/codex-monitor/24edcd32fc9612d0baf3a3258f9bc4be1cc4ab3b/docs/images/tasks.png"
     ],
-    "LastUpdate": 1788767146,
+    "LastUpdate": 1788769656,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "0.7.0.0",
+    "TestingAssemblyVersion": "0.8.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/CodexMonitor-0.7.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/CodexMonitor-0.7.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/CodexMonitor-0.7.0-dalamud.zip",
-    "Changelog": "Fenêtre fermée au chargement, règles de visibilité et lancement du relais depuis Connexion. Node.js 22.22.2 minimum reste nécessaire."
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/CodexMonitor-0.8.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/CodexMonitor-0.8.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/CodexMonitor-0.8.0-dalamud.zip",
+    "Changelog": "Emojis colorés dans les titres, ouverture directe des tâches dans Codex, libellés et masquage plus clairs, couleurs du quota ajustées. Le relais reste inchangé."
   },
   {
     "Author": "Aleqsd",
@@ -96,9 +96,9 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.4.1.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/MinimapZoom-0.4.1-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/MinimapZoom-0.4.1-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-3/MinimapZoom-0.4.1-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/MinimapZoom-0.4.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/MinimapZoom-0.4.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-07-4/MinimapZoom-0.4.1-dalamud.zip",
     "Changelog": "Réglages fixes et masquage séparé de la météo et des boutons."
   }
 ]

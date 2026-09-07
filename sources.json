@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-3",
+  "packageRelease": "catalogue-2026-09-07-4",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -24,7 +24,7 @@
     {
       "repo": "codex-monitor",
       "id": "CodexMonitor",
-      "tag": "v0.7.0",
+      "tag": "v0.8.0",
       "prefix": "plugin/",
       "files": [
         "CodexMonitor.dll",
@@ -32,13 +32,13 @@
         "CodexMonitor.deps.json"
       ],
       "image": "docs/images/tasks.png",
-      "archive": "codex-monitor-0.7.0.zip",
-      "archiveSha256": "f283353665f5dd4b0c0ed46ee155312e898c4e573a125b4b7d6b2be32468d946",
-      "dllSha256": "b06beae4db70d53a8dbbad06f6f98b80592839d161e32c301656b2b5d175ec0b",
-      "publishedAt": "2026-09-07T07:45:46Z",
-      "commit": "7cff4dc8e4481ef837942dcbe58d94fb4baf721d",
+      "archive": "codex-monitor-0.8.0.zip",
+      "archiveSha256": "bd1a6ffc00c0382d7529bc28fbb1f9a99857573ab33e692863fd589a00ba715d",
+      "dllSha256": "1effb7df4330e2902bf85bf82da9e5e73122f183d8b14d6e314bcc9311103a1d",
+      "publishedAt": "2026-09-07T08:27:36Z",
+      "commit": "24edcd32fc9612d0baf3a3258f9bc4be1cc4ab3b",
       "icon": "icons/CodexMonitor.png",
-      "changelog": "Fenêtre fermée au chargement, règles de visibilité et lancement du relais depuis Connexion. Node.js 22.22.2 minimum reste nécessaire.",
+      "changelog": "Emojis colorés dans les titres, ouverture directe des tâches dans Codex, libellés et masquage plus clairs, couleurs du quota ajustées. Le relais reste inchangé.",
       "installationNote": "Lancez le relais depuis Réglages → Connexion. Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté."
     },
     {
