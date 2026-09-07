@@ -153,8 +153,8 @@ def build(config):
             "DownloadLinkInstall": download, "DownloadLinkUpdate": download, "DownloadLinkTesting": download,
             "Changelog": item["changelog"]
         })
-        if repo == "codex-monitor":
-            entry["Description"] += " Le relais local se lance séparément ; voir le README."
+        if item.get("installationNote"):
+            entry["Description"] += " " + item["installationNote"]
         package = make_zip(files)
         validate_install_zip(package, entry, item["dllSha256"])
         (output / name).write_bytes(package)

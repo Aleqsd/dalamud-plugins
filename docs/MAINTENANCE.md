@@ -7,7 +7,7 @@ Ce dépôt distribue des archives adaptées à l'installateur Dalamud. Les DLL r
 Prérequis : Python 3.10+, Git et `gh` connecté à Aleqsd. Aucun workflow GitHub Actions.
 
 1. Partir d'une release publiée et vérifiée du plugin. Relever son commit, son nom d'archive et les SHA256 de l'archive et de la DLL via `gh api`.
-2. Actualiser son entrée dans `sources.json` : tag, commit, hashes, fichiers nécessaires, aperçu et changelog court. Ne pas retirer une dépendance de runtime requise. Garder les mêmes `InternalName`.
+2. Actualiser son entrée dans `sources.json` : tag, commit, hashes, fichiers nécessaires, aperçu et changelog court. `installationNote`, si présente, complète la description du catalogue avec les prérequis de cette version. Ne pas retirer une dépendance de runtime requise. Garder les mêmes `InternalName`.
 3. Choisir un nouveau `packageRelease` unique (par exemple `catalogue-2026-09-08-1`). Ne pas écraser les archives déjà publiées.
 4. Exécuter :
 
@@ -35,7 +35,7 @@ Le client Dalamud utilise l'URL JSON, les versions et les liens d'archives. La d
 
 Chaque tâche de plugin garde son dépôt et transmet sa nouvelle release à la tâche de publication du catalogue. Une seule tâche met à jour ce dépôt à la fois. Publier une release de plugin n'actualise pas automatiquement ce JSON.
 
-Hotbar Atelier et Codex Monitor livrent actuellement leur DLL sous `plugin/` ; le script la place à la racine du ZIP d'installation. Il ne livre pas le relais dans le dossier versionné de Dalamud : ses données et son processus restent dans un dossier durable séparé. Pour un autre schéma d'archive, adapter explicitement les fichiers autorisés.
+Hotbar Atelier et Codex Monitor livrent actuellement leur DLL sous `plugin/` ; le script la place à la racine du ZIP d'installation. Codex Monitor 0.7.0 embarque les quatre scripts du relais dans sa DLL : aucun fichier de relais supplémentaire n'est nécessaire dans le ZIP installateur. Vérifier que ces ressources restent identiques à celles des sources de la release. Au clic sur **Connexion → Lancer le relais**, le plugin extrait les scripts et crée les données d'exécution sous son dossier de configuration. Node.js 22.22.2 minimum et le CLI Codex restent externes. Le plugin ne gère l'arrêt que du relais qu'il a créé ; un relais externe préexistant est conservé. Ce dernier reste à mettre à jour séparément si nécessaire. Pour un autre schéma d'archive, adapter explicitement les fichiers autorisés.
 
 ## Vérifications de référence
 
