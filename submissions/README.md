@@ -14,6 +14,8 @@ Les essais en jeu déclarés par Aleqsd concernent le développement des plugins
 
 Le dossier **Codex Monitor reste basé sur la 0.6.1**, avec son relais séparé. Les versions suivantes du catalogue personnalisé ajoutent notamment le lancement du relais depuis le plugin, les emojis colorés et l'ouverture des tâches dans Codex ; ces fonctions ne sont pas couvertes par le brouillon officiel actuel.
 
+Le dossier **Minimap Zoom reste basé sur la 0.4.1**, avec sa préparation du build D17. Les profils, raccourcis et autres nouveautés des versions suivantes du catalogue personnalisé ne sont pas inclus dans ce brouillon.
+
 Pour soumettre, utiliser un fork de [DalamudPluginsD17](https://github.com/goatcorp/DalamudPluginsD17), puis **une branche et une PR par plugin**. Copier uniquement le sous-dossier `testing/` du dossier concerné, utiliser son titre et son texte de PR, puis laisser Plogon compiler le commit public indiqué dans le manifeste. Les brouillons et notes de ce dossier n'ont pas à être copiés dans D17. [Procédure officielle](https://dalamud.dev/plugin-publishing/submission/).
 
 Avant l'envoi : obtenir l'avis utile sur les fonctions natives et le relais, terminer l'essai ciblé du build retenu et pouvoir expliquer les choix de code. Le message Codex est une consultation utile, pas une formalité imposée identifiée. Le ciblage Tab reste exclu. L'acceptation dépend de l'équipe Dalamud ; le dépôt personnalisé continue de fonctionner séparément.
