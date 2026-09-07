@@ -1,5 +1,5 @@
 {
-  "packageRelease": "catalogue-2026-09-07-2",
+  "packageRelease": "catalogue-2026-09-07-3",
   "plugins": [
     {
       "InternalName": "HotbarAtelier",
@@ -17,17 +17,17 @@
     },
     {
       "InternalName": "CodexMonitor",
-      "AssemblyVersion": "0.6.1.0",
+      "AssemblyVersion": "0.7.0.0",
       "DalamudApiLevel": 15,
-      "SourceCommit": "3a83f34376218c9b6561690823fc15826d43e0b1",
-      "SourceRelease": "https://github.com/Aleqsd/codex-monitor/releases/tag/v0.6.1",
-      "SourceArchiveSha256": "edb14f3e07a31d4fb7882ee971b1126848864c4f645ea902068fc8d4cd2cc339",
-      "DllSha256": "2cd2622b1c4b1ec1e6bc0e9cd94463fd18adfb94f72b8ce4e986770bef762fc4",
-      "Package": "CodexMonitor-0.6.1-dalamud.zip",
-      "PackageSha256": "cb9f33ee7ea799fb32d5254e7d7abee7ffa54b7477445da54747a75a2233f61f",
+      "SourceCommit": "7cff4dc8e4481ef837942dcbe58d94fb4baf721d",
+      "SourceRelease": "https://github.com/Aleqsd/codex-monitor/releases/tag/v0.7.0",
+      "SourceArchiveSha256": "f283353665f5dd4b0c0ed46ee155312e898c4e573a125b4b7d6b2be32468d946",
+      "DllSha256": "b06beae4db70d53a8dbbad06f6f98b80592839d161e32c301656b2b5d175ec0b",
+      "Package": "CodexMonitor-0.7.0-dalamud.zip",
+      "PackageSha256": "b3a9d66504c3b3471d33a2448c5a3e923146e345f9bf6ae783c6bd73103461a5",
       "Icon": "icons/CodexMonitor.png",
       "IconSha256": "9c8256484c471bc725bca400b0bdbe3c899f30c6fe5108243b4eaa264bb23aa2",
-      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/3a83f34376218c9b6561690823fc15826d43e0b1/docs/images/tasks.png"
+      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7cff4dc8e4481ef837942dcbe58d94fb4baf721d/docs/images/tasks.png"
     },
     {
       "InternalName": "MinimapZoom",
