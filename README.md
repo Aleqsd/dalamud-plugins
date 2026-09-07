@@ -35,7 +35,7 @@ Depuis la **0.9.0**, tu peux aussi choisir le lancement automatique après conne
 
 Les scripts du relais sont inclus dans le plugin ; une mise à jour apporte les nouveaux scripts pour son prochain lancement. Node.js et le CLI restent installés séparément. Un relais externe déjà actif est conservé et se met à jour manuellement. Le [lancement séparé](https://github.com/Aleqsd/codex-monitor/tree/main/bridge) reste possible.
 
-Après la mise à jour **0.11.0**, relance le relais intégré depuis **Connexion** pour recevoir les extraits de questions. Leur affichage dans les notifications est facultatif. Si tu utilises un relais externe, mets-le à jour et relance-le depuis son dossier.
+Le correctif **0.11.1** conserve le relais **0.11.0** : aucune relance nécessaire si tu l'utilises déjà. Si ton relais est plus ancien, relance le relais intégré depuis **Connexion** pour recevoir les extraits de questions facultatifs. Un relais externe se met à jour et se relance depuis son dossier.
 
 Versions expérimentales, pour Dalamud API 15. Les dernières versions ont été vérifiées hors jeu ; leur comportement en jeu reste à confirmer. Ce dépôt personnalisé ne fait pas partie du catalogue officiel.
 
