@@ -12,6 +12,8 @@ Les messages sont en anglais pour les reviewers. Ils expliquent simplement que C
 
 Les essais en jeu déclarés par Aleqsd concernent le développement des plugins. La préparation ajoute des métadonnées, ajuste la compilation et inclut le démarrage discret des réglages de Hotbar Atelier 0.5.2 ; elle ne prouve pas que ces nouveaux builds ont déjà été essayés en jeu. Les [notes de vérification](VERIFICATION.md) séparent ces étapes.
 
+Le dossier **Codex Monitor reste basé sur la 0.6.1**, avec son relais séparé. La 0.7.0 du catalogue personnalisé ajoute le lancement du relais depuis le plugin ; ce fonctionnement n'est pas couvert par le brouillon officiel actuel.
+
 Pour soumettre, utiliser un fork de [DalamudPluginsD17](https://github.com/goatcorp/DalamudPluginsD17), puis **une branche et une PR par plugin**. Copier uniquement le sous-dossier `testing/` du dossier concerné, utiliser son titre et son texte de PR, puis laisser Plogon compiler le commit public indiqué dans le manifeste. Les brouillons et notes de ce dossier n'ont pas à être copiés dans D17. [Procédure officielle](https://dalamud.dev/plugin-publishing/submission/).
 
 Avant l'envoi : obtenir l'avis utile sur les fonctions natives et le relais, terminer l'essai ciblé du build retenu et pouvoir expliquer les choix de code. Le message Codex est une consultation utile, pas une formalité imposée identifiée. Le ciblage Tab reste exclu. L'acceptation dépend de l'équipe Dalamud ; le dépôt personnalisé continue de fonctionner séparément.
