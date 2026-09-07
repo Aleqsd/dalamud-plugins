@@ -35,9 +35,11 @@ Le client Dalamud utilise l'URL JSON, les versions et les liens d'archives. La d
 
 Chaque tâche de plugin garde son dépôt et transmet sa nouvelle release à la tâche de publication du catalogue. Une seule tâche met à jour ce dépôt à la fois. Publier une release de plugin n'actualise pas automatiquement ce JSON.
 
-Hotbar Atelier et Codex Monitor livrent actuellement leur DLL sous `plugin/` ; le script la place à la racine du ZIP d'installation. Codex Monitor embarque son relais dans sa DLL : la 0.9.0 contient cinq scripts (`bridge.mjs`, `observer.mjs`, `questions.mjs`, `usage.mjs`, `files.mjs`), sans fichier de relais supplémentaire dans le ZIP installateur. Vérifier que chaque ressource correspond aux sources de la release, y compris les nouveaux modules.
+Hotbar Atelier et Codex Monitor livrent actuellement leur DLL sous `plugin/` ; le script la place à la racine du ZIP d'installation. Codex Monitor embarque son relais dans sa DLL : la 0.10.0 contient cinq scripts (`bridge.mjs`, `observer.mjs`, `questions.mjs`, `usage.mjs`, `files.mjs`), sans fichier de relais supplémentaire dans le ZIP installateur. Vérifier que chaque ressource correspond aux sources de la release, y compris les nouveaux modules.
 
 Le plugin extrait les scripts et crée les données d'exécution sous son dossier de configuration lors du lancement manuel depuis **Connexion**, ou du lancement automatique après connexion au personnage si l'utilisateur a activé cette option. Elle est désactivée par défaut. Node.js 22.22.2 minimum et le CLI Codex restent externes. Le plugin ne gère l'arrêt que du relais qu'il a créé ; un relais externe préexistant est conservé et se met à jour séparément si nécessaire. Une mise à jour apporte les nouveaux scripts pour le prochain lancement du relais intégré. Pour un autre schéma d'archive, adapter explicitement les fichiers autorisés.
+
+La 0.10.0 nécessite aussi son nouveau relais pour le modèle, l'effort et l'indicateur de réponse non lue. Mentionner sa relance dans le catalogue et les notes de release : depuis **Connexion** pour le relais intégré, depuis son dossier après mise à jour pour un relais externe. Le packaging ne doit pas arrêter ni remplacer une instance active.
 
 ## Vérifications de référence
 

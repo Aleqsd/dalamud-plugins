@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-7",
+  "packageRelease": "catalogue-2026-09-07-8",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -24,7 +24,7 @@
     {
       "repo": "codex-monitor",
       "id": "CodexMonitor",
-      "tag": "v0.9.0",
+      "tag": "v0.10.0",
       "prefix": "plugin/",
       "files": [
         "CodexMonitor.dll",
@@ -32,14 +32,14 @@
         "CodexMonitor.deps.json"
       ],
       "image": "docs/images/tasks.png",
-      "archive": "codex-monitor-0.9.0.zip",
-      "archiveSha256": "2fa62392a9876386dde0e063897252d2e2ebdc4d26017e07556a0fb63690045a",
-      "dllSha256": "2a6fa9872d96f5afe6ddf677a5ec27bfacfc5794ec93e807e8a0ed797b5caeef",
-      "publishedAt": "2026-09-07T10:19:05Z",
-      "commit": "e130bdffc5f01afdaf1f7ac5cbbe8df26de89f59",
+      "archive": "codex-monitor-0.10.0.zip",
+      "archiveSha256": "caaf49efed84d5708c68c4f68bb093bcd0fdb6421faccfd435dadc64b23dd5b4",
+      "dllSha256": "b4d56c48ccf21b68be1a5f59e47ab45326737ee895981337d89d45b6e976fa03",
+      "publishedAt": "2026-09-07T11:15:48Z",
+      "commit": "2953b933349ca4c459e34fecd3a1d9f6d625243b",
       "icon": "icons/CodexMonitor.png",
-      "changelog": "Ne pas déranger depuis les mini HUD, relais automatique facultatif après connexion au personnage, choix de période et diagnostic du quota. Compteurs, filtres et ouverture des tâches corrigés ; longues listes optimisées.",
-      "installationNote": "Lancez le relais depuis Réglages → Connexion. Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté."
+      "changelog": "Modèle, effort et réponses non lues par tâche. Suivi par projet, favoris, silence temporaire et compteurs HUD cliquables. Alertes regroupées, seuils de quota, historique filtrable et diagnostic guidé. Relancez le relais intégré après la mise à jour ; un relais externe se met à jour depuis son dossier.",
+      "installationNote": "Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté. Depuis Réglages → Connexion, relancez le relais intégré après la mise à jour pour le modèle, l'effort et le point bleu. Un relais externe se met à jour séparément."
     },
     {
       "repo": "minimap-zoom",
