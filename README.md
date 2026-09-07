@@ -29,9 +29,11 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 ## Codex Monitor
 
-À partir de la **0.7.0**, ouvre `/codex config`, puis **Connexion → Lancer le relais**. Le démarrage se fait au clic, sans fenêtre PowerShell. Il faut **Node.js 22.22.2 minimum**, Codex et, pour le quota, le CLI Codex connecté.
+Ouvre `/codex config`, puis **Connexion → Lancer le relais**. Il faut **Node.js 22.22.2 minimum**, Codex et, pour le quota, le CLI Codex connecté. Le relais démarre sans fenêtre PowerShell.
 
-Les scripts du relais sont inclus dans le plugin et suivent ses mises à jour. Node.js et le CLI restent installés séparément. Si ton ancien relais fonctionne déjà, garde-le lancé : le plugin le conserve. Le [lancement séparé](https://github.com/Aleqsd/codex-monitor/tree/main/bridge) reste possible.
+Depuis la **0.9.0**, tu peux aussi choisir le lancement automatique après connexion au personnage dans **Connexion**. Cette option est désactivée par défaut.
+
+Les scripts du relais sont inclus dans le plugin ; une mise à jour apporte les nouveaux scripts pour son prochain lancement. Node.js et le CLI restent installés séparément. Un relais externe déjà actif est conservé et se met à jour manuellement. Le [lancement séparé](https://github.com/Aleqsd/codex-monitor/tree/main/bridge) reste possible.
 
 Versions expérimentales, pour Dalamud API 15. Les dernières versions ont été vérifiées hors jeu ; leur comportement en jeu reste à confirmer. Ce dépôt personnalisé ne fait pas partie du catalogue officiel.
 
