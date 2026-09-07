@@ -6,7 +6,7 @@ The native controller validates addon and node identities, applies presentation 
 
 Effects are removed when disabled, during HUD editing, and before relevant addon refresh/destruction events. Unknown structures suspend the affected effect. If safe detachment cannot be established, some resources are retained until game exit instead of freeing memory still referenced by native nodes.
 
-[File-by-file code map](https://github.com/Aleqsd/hotbar-atelier/blob/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/native-code-map.md).
+[File-by-file code map](https://github.com/Aleqsd/hotbar-atelier/blob/5a662db413320e5e0e327f3823c937ed08c2f54a/docs/native-code-map.md).
 
 The settings use Dalamud's Windowing API. The displayed shape/border samples and settings captures are rendered outside the game; they do not prove live GPU rendering, mouse hitboxes or pointer safety for every game hierarchy.
 

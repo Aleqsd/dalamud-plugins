@@ -10,7 +10,7 @@ Les trois dossiers sont préparés pour le catalogue officiel. Ils contiennent l
 
 Les messages sont en anglais pour les reviewers. Ils expliquent simplement que Codex a écrit une grande partie du code, et que j'ai choisi les fonctionnalités, testé les plugins en jeu et guidé les améliorations. Le niveau **Auto** décrit les passes autonomes de programmation, accompagnées de ma direction produit et de mes essais. Les icônes pourront être refaites à la main si nécessaire 🙂
 
-Les essais en jeu déclarés par Aleqsd concernent le développement des plugins. La préparation ajoute des métadonnées et ajuste la compilation ; elle ne prouve pas que ces nouveaux builds ont déjà été essayés en jeu. Les [notes de vérification](VERIFICATION.md) séparent ces étapes.
+Les essais en jeu déclarés par Aleqsd concernent le développement des plugins. La préparation ajoute des métadonnées, ajuste la compilation et inclut le démarrage discret des réglages de Hotbar Atelier 0.5.2 ; elle ne prouve pas que ces nouveaux builds ont déjà été essayés en jeu. Les [notes de vérification](VERIFICATION.md) séparent ces étapes.
 
 Pour soumettre, utiliser un fork de [DalamudPluginsD17](https://github.com/goatcorp/DalamudPluginsD17), puis **une branche et une PR par plugin**. Copier uniquement le sous-dossier `testing/` du dossier concerné, utiliser son titre et son texte de PR, puis laisser Plogon compiler le commit public indiqué dans le manifeste. Les brouillons et notes de ce dossier n'ont pas à être copiés dans D17. [Procédure officielle](https://dalamud.dev/plugin-publishing/submission/).
 

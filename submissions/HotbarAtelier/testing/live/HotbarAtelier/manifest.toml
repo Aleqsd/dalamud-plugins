@@ -1,6 +1,6 @@
 [plugin]
 repository = "https://github.com/Aleqsd/hotbar-atelier.git"
-commit = "55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3"
+commit = "5a662db413320e5e0e327f3823c937ed08c2f54a"
 owners = ["Aleqsd"]
 project_path = "src"
-changelog = "First testing version. Customise keyboard hotbar shapes, borders, colours and layouts. Open /hotbaratelier to get started."
+changelog = "First testing version. Customise keyboard hotbar shapes, borders, colours and layouts. Settings stay closed when the plugin loads; open /hotbaratelier to get started."

@@ -1,1 +1,1 @@
-First testing version. Give your keyboard hotbars new shapes, borders, colours and layouts. Open `/hotbaratelier` to get started.
+First testing version. Give your keyboard hotbars new shapes, borders, colours and layouts. Settings stay closed when the plugin loads; open `/hotbaratelier` to get started.

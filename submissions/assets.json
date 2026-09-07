@@ -9,7 +9,7 @@
   },
   {
     "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image1.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/icon-shapes.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/5a662db413320e5e0e327f3823c937ed08c2f54a/docs/images/icon-shapes.png",
     "sha256": "561a8b5cd500340f454fb14af0f3d9fa548cfadd24534aa51b68fecb9ca2f458",
     "width": 1000,
     "height": 688,
@@ -17,7 +17,7 @@
   },
   {
     "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image2.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/icon-borders.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/5a662db413320e5e0e327f3823c937ed08c2f54a/docs/images/icon-borders.png",
     "sha256": "480eed45d51964f349c1f96cdce1b639017720ff3f62dfe77cb063641ecbc67b",
     "width": 1000,
     "height": 688,
@@ -25,7 +25,7 @@
   },
   {
     "file": "HotbarAtelier/testing/live/HotbarAtelier/images/image3.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/55bb1b140e76a4cc1d2fa2d60c4c7fcb5876f5d3/docs/images/settings.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/hotbar-atelier/5a662db413320e5e0e327f3823c937ed08c2f54a/docs/images/settings.png",
     "sha256": "4621657eb2352af1c71a68c194c8bbec960d5fc13701a8765ac4eb47e4730f3f",
     "width": 830,
     "height": 840,
