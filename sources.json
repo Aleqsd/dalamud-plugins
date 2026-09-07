@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-4",
+  "packageRelease": "catalogue-2026-09-07-5",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -44,20 +44,20 @@
     {
       "repo": "minimap-zoom",
       "id": "MinimapZoom",
-      "tag": "v0.4.1",
+      "tag": "v0.5.0",
       "prefix": "",
       "files": [
         "MinimapZoom.dll",
         "MinimapZoom.json"
       ],
       "image": "docs/images/settings-map.png",
-      "archive": "MinimapZoom-0.4.1.zip",
-      "archiveSha256": "b97ce7851e04d5f0096e862a6bb59d605bcea28cff48e7edce4913756eaa5706",
-      "dllSha256": "6b07ed2048f8652a9fbdccf5eebb6a0dfd348c9dbf11875d28b6e3d27a8972ee",
-      "publishedAt": "2026-09-06T22:32:45Z",
-      "commit": "8c9844c45262e95242821be6bd0a460168c698d3",
+      "archive": "MinimapZoom-0.5.0.zip",
+      "archiveSha256": "c6521ef4c16b63b58308d688177e0459714132c29e4ccadb6f5c338221dd8f1c",
+      "dllSha256": "e39fca408eb1fbd14f35ece35c498b46f85005c253047e8c0ce05d93d26767de",
+      "publishedAt": "2026-09-07T10:01:31Z",
+      "commit": "6d390078b328f3e38943c2eccd103d4a12a180e5",
       "icon": "icons/MinimapZoom.png",
-      "changelog": "Réglages fixes et masquage séparé de la météo et des boutons."
+      "changelog": "Profils par zone, raccourci de dézoom temporaire, opacité du fond, cadres et filtres améliorés. Réglages réorganisés ; vos préférences sont conservées dans Personnel."
     }
   ]
 }
