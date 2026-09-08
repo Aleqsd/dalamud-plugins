@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-07-10",
+  "packageRelease": "catalogue-2026-09-08-1",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -44,20 +44,20 @@
     {
       "repo": "minimap-zoom",
       "id": "MinimapZoom",
-      "tag": "v0.5.0",
+      "tag": "v0.5.1",
       "prefix": "",
       "files": [
         "MinimapZoom.dll",
         "MinimapZoom.json"
       ],
       "image": "docs/images/settings-map.png",
-      "archive": "MinimapZoom-0.5.0.zip",
-      "archiveSha256": "c6521ef4c16b63b58308d688177e0459714132c29e4ccadb6f5c338221dd8f1c",
-      "dllSha256": "e39fca408eb1fbd14f35ece35c498b46f85005c253047e8c0ce05d93d26767de",
-      "publishedAt": "2026-09-07T10:01:31Z",
-      "commit": "6d390078b328f3e38943c2eccd103d4a12a180e5",
+      "archive": "MinimapZoom-0.5.1.zip",
+      "archiveSha256": "80fc241c2b4ab8b463e6ca46d0fba3163139c55cd6e0bb40873fc6734c1151c7",
+      "dllSha256": "7da61ea8ba206a46d5b7f4e91d2dce9480bbfc2c3140008f5810d474b67470d0",
+      "publishedAt": "2026-09-08T20:03:56Z",
+      "commit": "df96f63db7423248f8a6d506fccb8c2eef6a379b",
       "icon": "icons/MinimapZoom.png",
-      "changelog": "Profils par zone, raccourci de dézoom temporaire, opacité du fond, cadres et filtres améliorés. Réglages réorganisés ; vos préférences sont conservées dans Personnel."
+      "changelog": "Compatibilité avec le client FFXIV 2026.09.01.0000.0000. Diagnostic distinguant le client détecté du client pris en charge. Réglages conservés."
     }
   ]
 }
