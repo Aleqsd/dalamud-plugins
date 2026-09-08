@@ -1,5 +1,5 @@
 {
-  "packageRelease": "catalogue-2026-09-07-10",
+  "packageRelease": "catalogue-2026-09-08-1",
   "plugins": [
     {
       "InternalName": "HotbarAtelier",
@@ -31,17 +31,17 @@
     },
     {
       "InternalName": "MinimapZoom",
-      "AssemblyVersion": "0.5.0.0",
+      "AssemblyVersion": "0.5.1.0",
       "DalamudApiLevel": 15,
-      "SourceCommit": "6d390078b328f3e38943c2eccd103d4a12a180e5",
-      "SourceRelease": "https://github.com/Aleqsd/minimap-zoom/releases/tag/v0.5.0",
-      "SourceArchiveSha256": "c6521ef4c16b63b58308d688177e0459714132c29e4ccadb6f5c338221dd8f1c",
-      "DllSha256": "e39fca408eb1fbd14f35ece35c498b46f85005c253047e8c0ce05d93d26767de",
-      "Package": "MinimapZoom-0.5.0-dalamud.zip",
-      "PackageSha256": "8179c9f457775b6257dd0af029a996d59899e6afbd5a8c6330541bdcf715232a",
+      "SourceCommit": "df96f63db7423248f8a6d506fccb8c2eef6a379b",
+      "SourceRelease": "https://github.com/Aleqsd/minimap-zoom/releases/tag/v0.5.1",
+      "SourceArchiveSha256": "80fc241c2b4ab8b463e6ca46d0fba3163139c55cd6e0bb40873fc6734c1151c7",
+      "DllSha256": "7da61ea8ba206a46d5b7f4e91d2dce9480bbfc2c3140008f5810d474b67470d0",
+      "Package": "MinimapZoom-0.5.1-dalamud.zip",
+      "PackageSha256": "59584e774417d0df577366da35ff6c3f4f75d27769ff17b15a75b89f678977a2",
       "Icon": "icons/MinimapZoom.png",
       "IconSha256": "ca3fd540b13e4d808dc9c0238911c287272cb8c120914be8104c126ce3a2e896",
-      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/6d390078b328f3e38943c2eccd103d4a12a180e5/docs/images/settings-map.png"
+      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/df96f63db7423248f8a6d506fccb8c2eef6a379b/docs/images/settings-map.png"
     }
   ]
 }
