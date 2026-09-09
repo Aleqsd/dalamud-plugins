@@ -1,35 +1,43 @@
 # Sources et préparation technique
 
-Vérification du 9 septembre 2026, en lecture seule sur les dépôts des plugins. Cette passe n'a compilé, chargé ni publié de nouvelle DLL. Les validations ci-dessous sont celles documentées par les tâches propriétaires, pas de nouveaux essais.
+État du 9 septembre 2026 après accord de publication et confirmation des essais par Aleqsd.
 
-| Plugin | Dernière release et source publique | Ancien commit du dossier D17 |
+| Plugin | Release de départ | Source de préparation publique |
 | --- | --- | --- |
-| Codex Monitor | 0.11.1 — [8636098](https://github.com/Aleqsd/codex-monitor/commit/8636098bb42abfc817935bcd75144cb463aea8e7) | 0.6.1 — `7958d1930ae9dbd4200d7c26a5ecd889643c8a8f` |
-| Minimap Zoom | 0.5.1 — [df96f63](https://github.com/Aleqsd/minimap-zoom/commit/df96f63db7423248f8a6d506fccb8c2eef6a379b) | 0.4.1 — `4c26d7f5edd7cec4505559ef151a9ad21681cf90` |
+| Codex Monitor 0.11.1 | [8636098](https://github.com/Aleqsd/codex-monitor/commit/8636098bb42abfc817935bcd75144cb463aea8e7) | [1ae4201](https://github.com/Aleqsd/codex-monitor/commit/1ae42019dabf84dd3ad33ab0179f893cb26685a4) |
+| Minimap Zoom 0.5.1 | [df96f63](https://github.com/Aleqsd/minimap-zoom/commit/df96f63db7423248f8a6d506fccb8c2eef6a379b) | [9212649](https://github.com/Aleqsd/minimap-zoom/commit/921264966a7f0936172826fd1a17633f9b18f94d) |
 
-Les tags et les branches publiques `main` résolvent vers les commits de la colonne centrale. Les deux noms sont absents de `stable/` et `testing/live/` au commit D17 [0b906df](https://github.com/goatcorp/DalamudPluginsD17/commit/0b906dfe65ddd5e866440a7344dcb918edb4df1c), arbre complet vérifié. Aucune PR d'Aleqsd n'a été trouvée dans D17. Ces états sont à relire au moment de l'envoi.
+Les deux sources sont sur leur branche `prepare-dalamud-20260909`. Aucun changement du code C# de fonctionnement ; les cinq scripts du relais Codex Monitor sont également identiques à la release.
 
-## Codex Monitor
+## Ajustements
 
-- Le [projet actuel](https://github.com/Aleqsd/codex-monitor/blob/8636098bb42abfc817935bcd75144cb463aea8e7/src/CodexMonitor.csproj) utilise déjà `Dalamud.NET.Sdk/15.0.0`, un lockfile committé et `Version.props`. Les cinq scripts du relais sont embarqués ; TerraFX est une dépendance de l'hôte, sans copie dans le paquet.
-- La description du projet ne mentionne plus l'icône et les sons créés avec Codex. Reporter cette déclaration de l'ancienne préparation, ainsi que `RepoUrl` et `IconUrl`, dans une nouvelle préparation issue de 0.11.1. La déclaration dans la PR ne remplace pas celle des assets dans la description visible du plugin.
-- Le relais écoute sur loopback et accepte les lectures `/health` et `/api/threads`, avec contrôles Host/Origin. Le plugin peut le lancer manuellement ; l'automatisme reste désactivé par défaut. Un relais externe existant reste indépendant. Node.js et le CLI ne sont pas distribués par Dalamud.
-- Les questions structurées peuvent fournir un extrait borné à 240 caractères. Le texte facultatif reste local et est retiré de l'historique sauvegardé. Ne plus écrire que tout texte de conversation est absent du jeu : décrire précisément cette exception. Le flux IPC interne complet existe avant projection.
-- Les [validations de la release](https://github.com/Aleqsd/codex-monitor/blob/8636098bb42abfc817935bcd75144cb463aea8e7/docs/VALIDATION.md) rapportent un build et 796 contrôles ImGui / 127 rendus. Elles n'attestent pas le chargement de cette DLL dans FFXIV. La nouvelle préparation devra vérifier les métadonnées générées, puis être essayée personnellement avec les HUD, les notifications et le relais.
-- Une consultation préalable sur le relais peut aider les reviewers ; aucune obligation spécifique de consultation pour ce type de moniteur n'a été identifiée dans les règles relues.
+**Codex Monitor** : déclaration de l'icône et des sons créés avec Codex dans la description, rétablissement de RepoUrl/IconUrl, résolution de TerraFX par DalamudLibPath. SDK 15 et lockfile conservés. [Note de préparation](https://github.com/Aleqsd/codex-monitor/blob/1ae42019dabf84dd3ad33ab0179f893cb26685a4/docs/SUBMISSION-20260909.md).
 
-## Minimap Zoom
+Le relais inclus se lance depuis les réglages ; démarrage automatique facultatif, désactivé par défaut. Node.js 22.22.2+ et Codex sont externes ; le quota nécessite aussi un CLI authentifié. Les extraits facultatifs de questions sont bornés à 240 caractères et absents de l'historique sauvegardé. Le flux IPC complet existe avant projection. Les réponses et sorties d'outils ne sont pas transmises au jeu.
 
-- Le [projet actuel](https://github.com/Aleqsd/minimap-zoom/blob/df96f63db7423248f8a6d506fccb8c2eef6a379b/src/MinimapZoom.csproj) utilise `Microsoft.NET.Sdk` et des références locales via `DalamudHome`, sans DalamudPackager. Le lockfile existe mais ne suffit pas à adapter le build à Plogon. Reporter la migration D17 de l'ancienne préparation sur la 0.5.1, avec restauration verrouillée et vérification du paquet, sans utiliser le script local qui remplace la DLL surveillée par le jeu.
-- La [description du manifeste](https://github.com/Aleqsd/minimap-zoom/blob/df96f63db7423248f8a6d506fccb8c2eef6a379b/src/MinimapZoom.json) déclare déjà l'icône, le masque et les cadres créés avec Codex. Conserver cette déclaration.
-- [ZoomPolicy](https://github.com/Aleqsd/minimap-zoom/blob/df96f63db7423248f8a6d506fccb8c2eef6a379b/src/ZoomPolicy.cs) permet 0.25–2 contre 0.5–2 en natif. [NativeMarkerRange](https://github.com/Aleqsd/minimap-zoom/blob/df96f63db7423248f8a6d506fccb8c2eef6a379b/src/NativeMarkerRange.cs) étend la collecte pendant la mise à jour de la mini-carte et restaure le scope. Il n'existe pas de garde PvP ou de liste blanche pour cette collecte. Les filtres d'apparence ne constituent pas une telle garde. Ne pas prétendre que les données déjà présentes côté client excluent un avantage en combat.
-- La 0.5.1 adapte la compatibilité au client `2026.09.01.0000.0000`. Les [validations publiées](https://github.com/Aleqsd/minimap-zoom/blob/df96f63db7423248f8a6d506fccb8c2eef6a379b/docs/validation.md) rapportent 70 contrôles hors jeu et 36 scénarios ImGui ; elles réservent explicitement l'essai en jeu. La capture native disponible est celle de la 0.4.1. L'image publique `settings-map.png` conserve le titre 0.5.0 : c'est un aperçu de cette interface, pas une preuve du chargement de 0.5.1.
-- Demander l'avis sur le périmètre avant de soumettre. Si les mainteneurs demandent une garde PvP ou un zoom limité, ce sera un changement fonctionnel à décider et tester, pas une simple retouche du texte de PR.
+**Minimap Zoom** : migration vers Dalamud.NET.Sdk 15.0.0, Packager et dépendances verrouillées, chemins SDK et symboles portables. Le contrôle du client `2026.09.01.0000.0000` et les fonctions natives sont inchangés. [Note de préparation](https://github.com/Aleqsd/minimap-zoom/blob/921264966a7f0936172826fd1a17633f9b18f94d/docs/SUBMISSION-20260909.md).
 
-## Fichiers de la future PR
+Le zoom 0.25–2 étend la collecte sous 0.5 jusqu'à deux fois sa portée native, avec la limite de 100 marqueurs. Aucune garde PvP ni liste de catégories autorisées ne protège cette extension. Les filtres d'apparence ne sont pas une telle garde. Des données déjà disponibles côté client peuvent néanmoins procurer un avantage ; l'admissibilité reste à discuter.
 
-Chaque PR sera dans sa propre branche du fork D17 et contiendra `testing/live/<InternalName>/manifest.toml`, `images/icon.png`, puis les aperçus retenus. Le manifeste utilisera `owners = ["Aleqsd"]`, `project_path = "src"` et le **nouveau commit public final** après les ajustements ci-dessus. Les commits de release relus ici identifient le périmètre ; ils ne sont pas présentés comme des candidats déjà prêts à compiler dans D17.
+## Validation
 
-Les icônes actuelles sont des SVG originaux écrits avec Codex puis rasterisés en PNG 256 × 256, sous MIT. Elles ne sont pas faites à la main. Aleqsd propose de les remplacer manuellement si demandé. Pour les aperçus, privilégier les vues actuelles ; une capture plus ancienne garde sa version en légende.
+Aleqsd confirme avoir testé personnellement les releases 0.11.1 et 0.5.1 avec la dernière mise à jour de FFXIV : les deux fonctionnent. Cela n'atteste ni l'acceptabilité du dézoom ni un chargement séparé des nouveaux builds de préparation.
 
-Références relues : [soumission](https://dalamud.dev/plugin-publishing/submission/), [préparation du build](https://github.com/goatcorp/DalamudPluginsD17#preparing-your-repository), [restrictions](https://dalamud.dev/plugin-publishing/restrictions/), [politique IA](https://dalamud.dev/plugin-publishing/ai-policy/).
+Les deux copies isolées ont passé la restauration verrouillée et le build Release avec .NET 10.0.400 et Dalamud 15.0.3.3, sans avertissement ni erreur. Codex Monitor a été recompilé au commit 1ae4201 et Minimap Zoom au commit 50f1ff3. Le commit Minimap final 9212649 change uniquement la note de soumission ; code et build sont identiques. Les manifestes, versions et archives Packager sont vérifiés ; aucune dépendance hôte n'est embarquée. Les binaires installés et releases existantes sont préservés.
+
+| Fichier | SHA-256 local |
+| --- | --- |
+| CodexMonitor.dll 0.11.1.0 | `33d558a7a9f986547a1ef9a2f8b163eb6a341c6f2e275fa7fea0055920abcaf6` |
+| MinimapZoom.dll 0.5.1.0 | `e6bd522add6dd5ce3e8eb41aac9661a453afa6e537c365d3389cd92fda376d61` |
+
+Ces empreintes décrivent les builds locaux, pas ceux que produira Plogon.
+
+## Envois
+
+La [PR Codex Monitor #9330](https://github.com/goatcorp/DalamudPluginsD17/pull/9330), ouverte par Aleqsd, ajoute cinq fichiers dans testing/live/CodexMonitor/ : manifeste, icône et trois aperçus. Branche `submit-codex-monitor-20260909`, commit D17 `95cfd8c95befbe1277bebe28fa7d0bdfd3862075`, base relue `0b906dfe65ddd5e866440a7344dcb918edb4df1c`. Le contrôle lint-manifest est réussi ; aucune compilation Plogon ou acceptation n'est encore attestée.
+
+La [PR Minimap #9331](https://github.com/goatcorp/DalamudPluginsD17/pull/9331), ouverte par Aleqsd, ajoute cinq fichiers dans testing/live/MinimapZoom/. Branche `submit-minimap-zoom-20260909`, commit D17 `8ee89bb659da6fff1789e75cdb1016cf8877bdcc`. Son contrôle lint-manifest est réussi. Le périmètre du dézoom est présenté explicitement à la revue. Toute restriction fonctionnelle demandée nécessitera son propre changement et ses essais.
+
+Les Actions du fork Aleqsd/DalamudPluginsD17 sont désactivées. Le catalogue personnalisé reste indépendant. Les assets viennent des sources publiques répertoriées dans [assets.json](../assets.json), avec versions et origine explicites.
+
+Références relues : [soumission](https://dalamud.dev/plugin-publishing/submission/), [build D17](https://github.com/goatcorp/DalamudPluginsD17#preparing-your-repository), [restrictions](https://dalamud.dev/plugin-publishing/restrictions/), [politique IA](https://dalamud.dev/plugin-publishing/ai-policy/).

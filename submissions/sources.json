@@ -1,7 +1,7 @@
 {
-  "preparedOn": "2026-09-07",
+  "preparedOn": "2026-09-09",
   "upstream": "goatcorp/DalamudPluginsD17",
-  "upstreamCommitReviewed": "92b349842ad8610704cc051d64f587c8ada8dc46",
+  "upstreamCommitReviewed": "0b906dfe65ddd5e866440a7344dcb918edb4df1c",
   "iconBaseUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/11e1199f78acef874209491a899c368d6c82d46e/icons",
   "plugins": [
     {
@@ -29,18 +29,18 @@
     {
       "id": "CodexMonitor",
       "repository": "Aleqsd/codex-monitor",
-      "commit": "7958d1930ae9dbd4200d7c26a5ecd889643c8a8f",
-      "version": "0.6.1.0",
+      "commit": "1ae42019dabf84dd3ad33ab0179f893cb26685a4",
+      "version": "0.11.1.0",
       "dotnetSdkFile": "global.json",
-      "changelog": "First testing version. Follow Codex tasks with a small HUD and notifications. A separate local relay is required; open /codex for the task list.",
+      "changelog": "First testing version. Follow local Codex tasks, unread replies and questions with a small HUD and optional notifications. Includes a local relay; Node.js and Codex are required. Open /codex to get started.",
       "images": [
         {
           "path": "docs/images/tasks.png",
           "caption": "Real ImGui task view, rendered outside the game with fictional data. Original source: MIT."
         },
         {
-          "path": "docs/images/mini-huds.png",
-          "caption": "Six HUD formats drawn by the actual ImGui components, outside the game with fictional data. Original source: MIT."
+          "path": "docs/images/new-huds.png",
+          "caption": "Current HUD components rendered outside the game with fictional data, from version 0.11.1. Original source: MIT."
         },
         {
           "path": "docs/images/notifications.png",
@@ -51,22 +51,22 @@
     {
       "id": "MinimapZoom",
       "repository": "Aleqsd/minimap-zoom",
-      "commit": "4c26d7f5edd7cec4505559ef151a9ad21681cf90",
-      "version": "0.4.1.0",
+      "commit": "921264966a7f0936172826fd1a17633f9b18f94d",
+      "version": "0.5.1.0",
       "descriptionFile": "src/MinimapZoom.json",
-      "changelog": "First testing version. Adjust the native minimap zoom, shape, frame and markers. Open /minizoom, or use /minizoom off to restore it.",
+      "changelog": "First testing version. Adjust native minimap zoom, shape, frame and markers, with profiles and an optional hold-to-zoom-out shortcut. Open /minizoom, or use /minizoom off to restore it.",
       "images": [
         {
           "path": "docs/images/minimap-in-game.png",
-          "caption": "In-game minimap screenshot supplied by Aleqsd. FFXIV game elements belong to their respective rights holders."
+          "caption": "In-game minimap screenshot supplied by Aleqsd, showing version 0.4.1. FFXIV game elements belong to their respective rights holders."
         },
         {
           "path": "docs/images/settings-map.png",
-          "caption": "Real ImGui map settings rendered outside the game. Original source: MIT."
+          "caption": "Real ImGui map settings rendered outside the game for version 0.5.0, retained in 0.5.1. Original source: MIT."
         },
         {
           "path": "docs/images/settings-markers.png",
-          "caption": "Real ImGui marker settings rendered outside the game. Original source: MIT."
+          "caption": "Real ImGui marker settings rendered outside the game, retained in the 0.5.1 source. Original source: MIT."
         }
       ]
     }

@@ -2,7 +2,9 @@ Hi! I'd like to share **Codex Monitor**, a small HUD for keeping an eye on local
 
 The plugin includes a local Node.js relay, started from settings. Automatic startup is optional and off by default. Node.js 22.22.2+ and Codex are required; usage limits also need a signed-in Codex CLI. It doesn't run tasks, answer questions or approve requests. Optional question previews are limited to 240 characters and aren't saved in history; answers and tool output aren't sent to the game. The internal Codex protocol may change.
 
-**AI usage: Auto (OpenAI Codex).** Codex wrote most of the code, including autonomous implementation and testing passes, and helped draft this submission. I chose the features, tested the plugin in game during development, and refined it through my own ideas and feedback.
+I've tested **0.11.1 in game with the latest FFXIV update**, and it works. This submission only adjusts metadata and build paths; runtime code and relay scripts are unchanged.
+
+**AI usage: Auto (OpenAI Codex).** Codex wrote most of the code, including autonomous implementation and testing passes, and helped draft this submission. I chose the features, tested the plugin in game, and refined it through my own ideas and feedback.
 
 The installer icon and built-in procedural sounds were created with Codex. Sounds can be disabled or replaced with a local WAV. The screenshots show the actual ImGui components with fictional data, outside the game. If the AI-made icon is an issue, I'm happy to make one by hand 🙂
 

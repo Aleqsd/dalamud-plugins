@@ -41,26 +41,26 @@
   },
   {
     "file": "CodexMonitor/testing/live/CodexMonitor/images/image1.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/tasks.png",
-    "sha256": "a2ab562e7883ed425b57e2826e31bcc54e900707b245c9d99bfa0c1889ea2af8",
-    "width": 800,
-    "height": 900,
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/1ae42019dabf84dd3ad33ab0179f893cb26685a4/docs/images/tasks.png",
+    "sha256": "0c2107a0266cdb0b1b24ab9ec7835451dce4e468c7642b574f8f13e9219a2fa5",
+    "width": 1000,
+    "height": 780,
     "caption": "Real ImGui task view, rendered outside the game with fictional data. Original source: MIT."
   },
   {
     "file": "CodexMonitor/testing/live/CodexMonitor/images/image2.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/mini-huds.png",
-    "sha256": "8ef3530d99e7897b29bf1b0226ba89c3ae3db413355808e2d6c19ba40e4e5da0",
-    "width": 800,
-    "height": 500,
-    "caption": "Six HUD formats drawn by the actual ImGui components, outside the game with fictional data. Original source: MIT."
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/1ae42019dabf84dd3ad33ab0179f893cb26685a4/docs/images/new-huds.png",
+    "sha256": "8f9db77561b64dbf27394998f205e3d85a72bcce4d67646475aedd5d6fe5078a",
+    "width": 720,
+    "height": 520,
+    "caption": "Current HUD components rendered outside the game with fictional data, from version 0.11.1. Original source: MIT."
   },
   {
     "file": "CodexMonitor/testing/live/CodexMonitor/images/image3.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/7958d1930ae9dbd4200d7c26a5ecd889643c8a8f/docs/images/notifications.png",
-    "sha256": "0b3675034f935172749c08ae7b60819f52afd360406569c7d141024e4553a107",
+    "source": "https://raw.githubusercontent.com/Aleqsd/codex-monitor/1ae42019dabf84dd3ad33ab0179f893cb26685a4/docs/images/notifications.png",
+    "sha256": "29ad9f85e699fdf4dcd855b3d9935ddb3ccfa513cb422a72daae16c7e8751d38",
     "width": 680,
-    "height": 650,
+    "height": 850,
     "caption": "Actual notification components rendered outside the game with fictional data. Original source: MIT."
   },
   {
@@ -73,26 +73,26 @@
   },
   {
     "file": "MinimapZoom/testing/live/MinimapZoom/images/image1.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/minimap-in-game.png",
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/921264966a7f0936172826fd1a17633f9b18f94d/docs/images/minimap-in-game.png",
     "sha256": "5110715141606cbf151a29c8dd007148074b811ccd31a4bb8b6777723c010034",
     "width": 270,
     "height": 311,
-    "caption": "In-game minimap screenshot supplied by Aleqsd. FFXIV game elements belong to their respective rights holders."
+    "caption": "In-game minimap screenshot supplied by Aleqsd, showing version 0.4.1. FFXIV game elements belong to their respective rights holders."
   },
   {
     "file": "MinimapZoom/testing/live/MinimapZoom/images/image2.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/settings-map.png",
-    "sha256": "f8db8c0f89fe5f5bacbfa084b96fdb32973a95798fbadb32f33ac73d2562a82a",
-    "width": 574,
-    "height": 769,
-    "caption": "Real ImGui map settings rendered outside the game. Original source: MIT."
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/921264966a7f0936172826fd1a17633f9b18f94d/docs/images/settings-map.png",
+    "sha256": "a04198b0021c88b6e6f1dc849970912211fcfbbbc4291e8df983c83ba0b74cfe",
+    "width": 644,
+    "height": 844,
+    "caption": "Real ImGui map settings rendered outside the game for version 0.5.0, retained in 0.5.1. Original source: MIT."
   },
   {
     "file": "MinimapZoom/testing/live/MinimapZoom/images/image3.png",
-    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/4c26d7f5edd7cec4505559ef151a9ad21681cf90/docs/images/settings-markers.png",
-    "sha256": "4e938456e5f99e6b01dd033d903e589e958356ce00c4b2380250e4a56b0cf6e1",
-    "width": 574,
-    "height": 829,
-    "caption": "Real ImGui marker settings rendered outside the game. Original source: MIT."
+    "source": "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/921264966a7f0936172826fd1a17633f9b18f94d/docs/images/settings-markers.png",
+    "sha256": "fd430462cedb9b70d162ebd075b6f52dbbc3b2ae4544e0cd1b94fba2439bace3",
+    "width": 644,
+    "height": 844,
+    "caption": "Real ImGui marker settings rendered outside the game, retained in the 0.5.1 source. Original source: MIT."
   }
 ]
