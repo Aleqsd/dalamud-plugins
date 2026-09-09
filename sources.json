@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-08-1",
+  "packageRelease": "catalogue-2026-09-09-1",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -24,21 +24,21 @@
     {
       "repo": "codex-monitor",
       "id": "CodexMonitor",
-      "tag": "v0.11.1",
+      "tag": "v0.11.2",
       "prefix": "plugin/",
       "files": [
         "CodexMonitor.dll",
         "CodexMonitor.json",
         "CodexMonitor.deps.json"
       ],
-      "image": "docs/images/tasks.png",
-      "archive": "codex-monitor-0.11.1.zip",
-      "archiveSha256": "028bd122d9775818eada85ad28bf8b7f4ad3f17a81aa508b1d24ba379a51b3b6",
-      "dllSha256": "e345945964f60b3687ad62d204eb2f087b001376e7e4bcb2c15ce72c38d1aaa2",
-      "publishedAt": "2026-09-07T14:17:54Z",
-      "commit": "8636098bb42abfc817935bcd75144cb463aea8e7",
+      "image": "docs/images/hud-readable.png",
+      "archive": "codex-monitor-0.11.2.zip",
+      "archiveSha256": "ab20e250788368c7ffeaa9ab520d361a503337b737a49fa07b1da6cc84d76eec",
+      "dllSha256": "2c0a0456f252d0a476921a0d15851409f8d1dc7bc93915d252f1b462b1d51980",
+      "publishedAt": "2026-09-09T15:29:02Z",
+      "commit": "9b90e1df72beede870246ce07af5bda8df84cb6a",
       "icon": "icons/CodexMonitor.png",
-      "changelog": "Le clic sur le mini HUD ouvre les réglages, y compris depuis les compteurs et le quota. Cloche Ne pas déranger intégrée aux neuf formats. L'aperçu des tâches reste facultatif dans Réglages → HUD → Au clic sur le HUD. Format, position et apparence conservés. Relais inchangé depuis la 0.11.0.",
+      "changelog": "Texte des mini HUD plus lisible : Expressway locale, contour noir réglable et glyphes plus nets. Bouton Texte lisible comme LMeter dans Réglages → HUD. Polices personnalisées, fond et position conservés. Relais inchangé depuis la 0.11.0.",
       "installationNote": "Node.js 22.22.2 minimum et Codex sont nécessaires ; le quota utilise le CLI Codex connecté. Aucune relance nécessaire avec le relais 0.11.0 déjà actif. Si votre relais est plus ancien, relancez le relais intégré depuis Réglages → Connexion ; un relais externe se met à jour et se relance depuis son dossier."
     },
     {
