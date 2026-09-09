@@ -1,5 +1,7 @@
 # Préparer les soumissions Dalamud
 
+**Relecture du 9 septembre : [voir les deux PR envisagées](review-2026-09-09/README.md)** pour Codex Monitor 0.11.1 et Minimap Zoom 0.5.1. Leurs textes sont actualisés ; les fichiers techniques ci-dessous restent ceux du 7 septembre et ne doivent pas être copiés pour soumettre les versions actuelles. Les ajustements de métadonnées/build et l'avis préalable sur Minimap sont détaillés dans cette nouvelle relecture. Aucune PR officielle n'est ouverte.
+
 Les trois dossiers sont préparés pour le catalogue officiel. Ils contiennent les textes des PR, les icônes et les fichiers à ajouter à `testing/live`. Rien n'a encore été envoyé à l'équipe Dalamud.
 
 | Plugin | Texte de la PR | Avis préalable |
