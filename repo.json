@@ -29,9 +29,9 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.6.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
     "Changelog": "Presets, édition groupée, copie partielle, annuler/rétablir et profils par job/personnage. Bordures, disposition et visibilité améliorées ; import avec aperçu. Démarrage automatique facultatif, réglages fermés au chargement."
   },
   {
@@ -63,17 +63,17 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.11.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/CodexMonitor-0.11.2-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/CodexMonitor-0.11.2-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
     "Changelog": "Texte des mini HUD plus lisible : Expressway locale, contour noir réglable et glyphes plus nets. Bouton Texte lisible comme LMeter dans Réglages → HUD. Polices personnalisées, fond et position conservés. Relais inchangé depuis la 0.11.0."
   },
   {
     "Author": "Aleqsd",
     "Name": "Minimap Zoom",
     "InternalName": "MinimapZoom",
-    "AssemblyVersion": "0.5.1.0",
-    "Description": "Mini-carte carrée, zoom réglable, profils par zone et raccourci de dézoom temporaire. Fond, cadre, éléments du HUD et marqueurs personnalisables. Réglages dans /minizoom. Client 2026.09.01.0000.0000. Icône, masque et cadres créés avec l’aide de Codex. Version expérimentale ; essais en jeu encore à confirmer.",
+    "AssemblyVersion": "0.5.2.0",
+    "Description": "Mini-carte carrée, zoom réglable, profils par zone et raccourci de dézoom temporaire. Fond, cadre, éléments du HUD et marqueurs personnalisables. Réglages dans /minizoom. Compatibilité vérifiée automatiquement à partir des fonctions natives. Icône, masque et cadres créés avec l’aide de Codex. Version expérimentale ; essais en jeu encore à confirmer.",
     "RepoUrl": "https://github.com/Aleqsd/minimap-zoom",
     "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/MinimapZoom.png",
     "Punchline": "Voir plus loin sur la mini-carte native.",
@@ -90,15 +90,15 @@
     ],
     "IsHide": false,
     "ImageUrls": [
-      "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/df96f63db7423248f8a6d506fccb8c2eef6a379b/docs/images/settings-map.png"
+      "https://raw.githubusercontent.com/Aleqsd/minimap-zoom/fc781515c47fcb8bcca674d95a7856052c20163c/docs/images/settings-map.png"
     ],
-    "LastUpdate": 1788897836,
+    "LastUpdate": 1789672620,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "0.5.1.0",
+    "TestingAssemblyVersion": "0.5.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/MinimapZoom-0.5.1-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/MinimapZoom-0.5.1-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-09-1/MinimapZoom-0.5.1-dalamud.zip",
-    "Changelog": "Compatibilité avec le client FFXIV 2026.09.01.0000.0000. Diagnostic distinguant le client détecté du client pris en charge. Réglages conservés."
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
+    "Changelog": "Compatibilité avec le client du 15 septembre. Vérification automatique des fonctions de la mini-carte au lieu d’un blocage par numéro de patch. Les patchs sans changement des éléments vérifiés peuvent passer sans nouvelle version. Incompatibilités détectées toujours bloquées ; profils et réglages conservés."
   }
 ]
