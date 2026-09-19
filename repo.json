@@ -105,7 +105,7 @@
     "Author": "Aleqsd",
     "Name": "Cycle & Opener",
     "InternalName": "CycleOpener",
-    "AssemblyVersion": "0.2.0.0",
+    "AssemblyVersion": "0.2.1.0",
     "Description": "Guides statiques de cycles, priorités et ouvertures par niveau. Mage noir et Mage blanc, mono/multicible, niveau automatique ou manuel, dans une seule fenêtre. Noms des sorts dans la langue du client ; explications en français. /cycle. Sans suivi du combat. Version expérimentale ; essais en jeu encore à confirmer. Fiches Mage noir et Mage blanc, sans action automatique ; quêtes de classe et de job supposées terminées.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -120,16 +120,16 @@
     "RepoUrl": "https://github.com/Aleqsd/cycle-opener",
     "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CycleOpener.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/Aleqsd/cycle-opener/1d12e2524b65ef324bf5c4bac0021e2975b80e8c/docs/images/fiche-express.png"
+      "https://raw.githubusercontent.com/Aleqsd/cycle-opener/b27d1bd32339a7c4ec79d1e23f84004512e8b5b9/docs/images/fiche-express.png"
     ],
-    "LastUpdate": 1789835075,
+    "LastUpdate": 1789837025,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "0.2.0.0",
+    "TestingAssemblyVersion": "0.2.1.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-3/CycleOpener-0.2.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-3/CycleOpener-0.2.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-3/CycleOpener-0.2.0-dalamud.zip",
-    "Changelog": "Mage blanc ajouté aux guides Mage noir, du niveau 1 au 100. Cycle et ouverture dans une seule fenêtre, avec niveau Auto / Manuel et paliers rapides. Noms des sorts selon la langue du client ; explications en français. Fermeture accessible même en mode verrouillé. Préférences conservées ; la fenêtre peut être à repositionner."
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-4/CycleOpener-0.2.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-4/CycleOpener-0.2.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-4/CycleOpener-0.2.1-dalamud.zip",
+    "Changelog": "La proposition d’afficher le guide apparaît uniquement après une baisse de niveau synchronisé en instance PvE, une fois le chargement ou le combat terminé. Plus de popup à la sortie, en ville, en monde ouvert ou sur une hausse de niveau. Les propositions en attente sont annulées dès la sortie ; le guide visible continue de suivre le niveau en mode Auto."
   }
 ]
