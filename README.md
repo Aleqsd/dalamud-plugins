@@ -7,7 +7,7 @@ Un seul dépôt à ajouter dans Dalamud pour installer et mettre à jour ces plu
 | <img src="icons/HotbarAtelier.png" width="48" alt="Hotbar Atelier"> | [Hotbar Atelier](https://github.com/Aleqsd/hotbar-atelier) | Personnaliser les barres d'actions. |
 | <img src="icons/CodexMonitor.png" width="48" alt="Codex Monitor"> | [Codex Monitor](https://github.com/Aleqsd/codex-monitor) | Voir les tâches Codex et leurs notifications en jeu. |
 | <img src="icons/MinimapZoom.png" width="48" alt="Minimap Zoom"> | [Minimap Zoom](https://github.com/Aleqsd/minimap-zoom) | Dézoomer et personnaliser la mini-carte. |
-| <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Cycles et ouvertures par niveau pour Mage noir et Mage blanc. |
+| <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Cycles et ouvertures par niveau pour 21 jobs de combat, hors Mage bleu. |
 
 ## Installation
 
@@ -30,9 +30,11 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 ## Cycle & Opener
 
-Ouvre `/cycle` pour consulter les fiches **Mage noir et Mage blanc**, du niveau 1 au 100. L’ouverture s’affiche au-dessus du cycle dans un panneau compact. Le niveau **Auto / Manuel** et le nombre de cibles se règlent directement dans le guide. Les noms des sorts suivent la langue du client ; les explications restent en français. Ce sont des guides statiques, sans suivi du combat ni action automatique.
+Ouvre `/cycle` pour consulter les fiches des **21 jobs de combat et de leurs classes de départ**, du niveau 1 au 100. Le Mage bleu est exclu pour le moment. L’ouverture s’affiche au-dessus du cycle ; le niveau **Auto / Manuel** et le nombre de cibles, de **1 à 8**, se règlent dans le guide. Les noms des sorts suivent la langue du client ; les explications restent en français.
 
-![Guide Mage noir : ouverture et cycle](https://raw.githubusercontent.com/Aleqsd/cycle-opener/f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb/docs/images/fiche-express.png)
+Les nouvelles ouvertures sont des départs pédagogiques. Les variantes optimisées de raid restent dans les sources liées. Aucun suivi du combat ni action automatique.
+
+![Guide Pictomancien : ouverture et cycle](https://raw.githubusercontent.com/Aleqsd/cycle-opener/4f8ad6f8a96c948db3c1b4218b2a7a11ada41ef4/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 

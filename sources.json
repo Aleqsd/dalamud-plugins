@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-19-5",
+  "packageRelease": "catalogue-2026-09-19-6",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -62,21 +62,21 @@
     {
       "repo": "cycle-opener",
       "id": "CycleOpener",
-      "tag": "v0.3.0",
+      "tag": "v1.0.0",
       "prefix": "",
       "files": [
         "CycleOpener.dll",
         "CycleOpener.json"
       ],
       "image": "docs/images/fiche-express.png",
-      "archive": "CycleOpener-0.3.0.zip",
-      "archiveSha256": "3a3417d2d1dcfb422bbe90b8fb83114edac672e56a4f674e23aaac5b37f3c416",
-      "dllSha256": "6ef2727a010935d19743094552ba3ed9d266fdaf66fb5514da881b8e4ba875a5",
-      "publishedAt": "2026-09-19T17:35:06Z",
-      "commit": "f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb",
+      "archive": "CycleOpener-1.0.0.zip",
+      "archiveSha256": "6e5eedc27c710d6f56de91f17b16d4bee3c47e50cfa5e9c7ace0c1cfaf0a3cad",
+      "dllSha256": "b2233adfedfb143c596da1acd08fce589a95ad2ff83e7e05e23f0d6be17ee525",
+      "publishedAt": "2026-09-19T18:55:34Z",
+      "commit": "4f8ad6f8a96c948db3c1b4218b2a7a11ada41ef4",
       "icon": "icons/CycleOpener.png",
-      "changelog": "Nouveau panneau compact avec repli, verrouillage, réglages et fermeture dans l’en-tête. Ouverture au-dessus du cycle, répétitions ×N et petites icônes d’aptitudes. Auto / Manuel, niveau et seuils multicibles directement accessibles ; soins Mage blanc dépliables. Préférences conservées. Les popups restent réservées aux baisses de niveau en instance PvE.",
-      "installationNote": "Fiches Mage noir et Mage blanc, sans action automatique ; quêtes de classe et de job supposées terminées."
+      "changelog": "Fiches pour les 21 jobs de combat et leurs classes de départ, du niveau 1 au 100. Choix précis de 1 à 8 cibles, seuils multicibles, rappels de soins et de protection, sources par job. Les 19 nouvelles ouvertures sont des départs pédagogiques ; les variantes optimisées de raid restent dans les sources liées. Mage bleu exclu pour le moment.",
+      "installationNote": "Mage bleu exclu pour le moment. Les nouvelles ouvertures sont pédagogiques ; consulter les sources liées pour les variantes optimisées de raid. Aucune action automatique ; quêtes de classe et de job supposées terminées."
     }
   ]
 }

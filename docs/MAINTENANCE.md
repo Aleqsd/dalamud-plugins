@@ -43,7 +43,7 @@ Le plugin extrait les scripts et crée les données d'exécution sous son dossie
 
 Le relais 0.11.0 apporte les extraits de questions, dont l'affichage est facultatif. Les correctifs 0.11.1 et 0.11.2 le conservent : aucune relance requise pour un utilisateur qui l'a déjà lancé. Pour un relais plus ancien, mentionner la relance depuis **Connexion** pour le relais intégré, ou depuis son dossier après mise à jour pour un relais externe. Le packaging ne doit pas arrêter ni remplacer une instance active.
 
-Cycle & Opener utilise le dépôt source `Aleqsd/cycle-opener`, l'identité `CycleOpener` et la commande `/cycle`. Sa DLL et son manifeste sont à la racine du ZIP ; aucune dépendance supplémentaire n'est nécessaire. Les fiches statiques couvrent Mage noir et Mage blanc, dans une fenêtre commune avec niveau automatique ou manuel. Les noms des sorts suivent la langue du client ; les explications restent en français. Conserver les limites de validation hors jeu et la portée du guide dans le catalogue.
+Cycle & Opener utilise le dépôt source `Aleqsd/cycle-opener`, l'identité `CycleOpener` et la commande `/cycle`. Sa DLL et son manifeste sont à la racine du ZIP ; aucune dépendance supplémentaire n'est nécessaire. Les fiches statiques couvrent 21 jobs de combat et leurs classes de départ, hors Mage bleu, dans une fenêtre commune avec niveau automatique ou manuel et choix précis de 1 à 8 cibles. Les 19 jobs ajoutés en 1.0.0 proposent des départs pédagogiques ; ne pas les présenter comme des ouvertures optimisées de raid. Les noms des sorts suivent la langue du client ; les explications restent en français. Conserver les limites de validation hors jeu et la portée du guide dans le catalogue.
 
 ## Vérifications de référence
 
