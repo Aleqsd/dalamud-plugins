@@ -32,9 +32,9 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 Ouvre `/cycle` pour consulter les fiches des **21 jobs de combat et de leurs classes de départ**, du niveau 1 au 100. Le Mage bleu est exclu pour le moment. L’ouverture s’affiche au-dessus du cycle ; le niveau **Auto / Manuel** et le nombre de cibles, de **1 à 8**, se règlent dans le guide. Les noms des sorts suivent la langue du client ; les explications restent en français.
 
-Les nouvelles ouvertures sont des départs pédagogiques. Les variantes optimisées de raid restent dans les sources liées. Aucun suivi du combat ni action automatique.
+Les nouvelles ouvertures sont des départs pédagogiques. Les variantes optimisées de raid restent dans les sources liées. Les prérequis affichés sont théoriques, sans suivi du combat ni action automatique. `/cycle config` ouvre les réglages.
 
-![Guide Pictomancien : ouverture et cycle](https://raw.githubusercontent.com/Aleqsd/cycle-opener/4f8ad6f8a96c948db3c1b4218b2a7a11ada41ef4/docs/images/fiche-express.png)
+![Guide Pictomancien : ouverture, cycle et prérequis](https://raw.githubusercontent.com/Aleqsd/cycle-opener/343c33d5dc830373fc48f4f4634b13bc3af18254/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 

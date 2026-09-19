@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-19-6",
+  "packageRelease": "catalogue-2026-09-19-7",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -62,20 +62,20 @@
     {
       "repo": "cycle-opener",
       "id": "CycleOpener",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "prefix": "",
       "files": [
         "CycleOpener.dll",
         "CycleOpener.json"
       ],
       "image": "docs/images/fiche-express.png",
-      "archive": "CycleOpener-1.0.0.zip",
-      "archiveSha256": "6e5eedc27c710d6f56de91f17b16d4bee3c47e50cfa5e9c7ace0c1cfaf0a3cad",
-      "dllSha256": "b2233adfedfb143c596da1acd08fce589a95ad2ff83e7e05e23f0d6be17ee525",
-      "publishedAt": "2026-09-19T18:55:34Z",
-      "commit": "4f8ad6f8a96c948db3c1b4218b2a7a11ada41ef4",
+      "archive": "CycleOpener-1.1.0.zip",
+      "archiveSha256": "43008dca675cd02ea8a7ba5bd0ebc8cbb33798d164e40bdbb9068afac0dba6b7",
+      "dllSha256": "070614cfb55408a79fae89fac3dc223edf45924eee43e55f483eb62442822245",
+      "publishedAt": "2026-09-19T19:38:36Z",
+      "commit": "343c33d5dc830373fc48f4f4634b13bc3af18254",
       "icon": "icons/CycleOpener.png",
-      "changelog": "Fiches pour les 21 jobs de combat et leurs classes de départ, du niveau 1 au 100. Choix précis de 1 à 8 cibles, seuils multicibles, rappels de soins et de protection, sources par job. Les 19 nouvelles ouvertures sont des départs pédagogiques ; les variantes optimisées de raid restent dans les sources liées. Mage bleu exclu pour le moment.",
+      "changelog": "Ouverture et cycle toujours réunis. Prérequis théoriques affichés sous les actions. Choix des jobs par rôle et favoris. /cycle ouvre le guide ; /cycle config ouvre les réglages. Engrenage et cadenas clarifiés. Rappels Double Mise et Perfectio corrigés. Préférences conservées.",
       "installationNote": "Mage bleu exclu pour le moment. Les nouvelles ouvertures sont pédagogiques ; consulter les sources liées pour les variantes optimisées de raid. Aucune action automatique ; quêtes de classe et de job supposées terminées."
     }
   ]
