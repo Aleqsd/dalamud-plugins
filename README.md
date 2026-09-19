@@ -7,7 +7,7 @@ Un seul dépôt à ajouter dans Dalamud pour installer et mettre à jour ces plu
 | <img src="icons/HotbarAtelier.png" width="48" alt="Hotbar Atelier"> | [Hotbar Atelier](https://github.com/Aleqsd/hotbar-atelier) | Personnaliser les barres d'actions. |
 | <img src="icons/CodexMonitor.png" width="48" alt="Codex Monitor"> | [Codex Monitor](https://github.com/Aleqsd/codex-monitor) | Voir les tâches Codex et leurs notifications en jeu. |
 | <img src="icons/MinimapZoom.png" width="48" alt="Minimap Zoom"> | [Minimap Zoom](https://github.com/Aleqsd/minimap-zoom) | Dézoomer et personnaliser la mini-carte. |
-| <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Consulter les cycles et ouvertures par niveau. Mage noir disponible. |
+| <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Cycles et ouvertures par niveau pour Mage noir et Mage blanc. |
 
 ## Installation
 
@@ -30,9 +30,9 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 ## Cycle & Opener
 
-Ouvre `/cycle` pour consulter les fiches Mage noir en français : cycle et ouverture côte à côte, selon le niveau et le nombre de cibles choisi. Les boutons ouvrent le cycle, l’ouverture ou les deux, avec fermeture indépendante. Ce sont des guides statiques, sans suivi du combat ni action automatique.
+Ouvre `/cycle` pour consulter les fiches **Mage noir et Mage blanc**, du niveau 1 au 100. Cycle et ouverture partagent une seule fenêtre, avec choix du niveau **Auto / Manuel** et du nombre de cibles. Les noms des sorts suivent la langue du client ; les explications restent en français. Ce sont des guides statiques, sans suivi du combat ni action automatique.
 
-![Fiche express de Cycle & Opener](https://raw.githubusercontent.com/Aleqsd/cycle-opener/55fc8b72cd3fac1ba063aea0ddb3bf4775b07f1d/docs/images/fiche-express.png)
+![Guide Mage blanc : cycle et ouverture](https://raw.githubusercontent.com/Aleqsd/cycle-opener/1d12e2524b65ef324bf5c4bac0021e2975b80e8c/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 

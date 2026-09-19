@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "sources.json"
 MAX_BYTES = 32 * 1024 * 1024
 ALLOWED_REPOS = {"hotbar-atelier", "codex-monitor", "minimap-zoom", "cycle-opener"}
+DOWNLOAD_LINKS = ("DownloadLinkInstall", "DownloadLinkUpdate", "DownloadLinkTesting")
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
@@ -81,6 +82,14 @@ def make_zip(files):
             info.external_attr = 0o644 << 16
             archive.writestr(info, files[name])
     return output.getvalue()
+
+def keep_existing_downloads(current, record, previous, previous_record):
+    """Keep an unchanged plugin on its already published archive."""
+    if not previous or record != previous_record:
+        return
+    content = lambda entry: {k: v for k, v in entry.items() if k not in DOWNLOAD_LINKS}
+    if content(current) == content(previous) and all(previous.get(k) for k in DOWNLOAD_LINKS):
+        current.update({k: previous[k] for k in DOWNLOAD_LINKS})
 
 def build(config):
     if config["repository"] != "Aleqsd/dalamud-plugins":
@@ -172,6 +181,7 @@ def build(config):
         print(f"{internal} {local['AssemblyVersion']}: flat ZIP, manifest, unchanged DLL and icon validated")
     if len({e["InternalName"] for e in entries}) != len(entries):
         raise ValueError("Duplicate plugin IDs")
+    old = {}
     if (ROOT / "repo.json").exists():
         old = {e["InternalName"]: e for e in read_json(ROOT / "repo.json")}
         for current in entries:
@@ -184,6 +194,9 @@ def build(config):
             previous = old_records.get(current["InternalName"])
             if previous and version(current["AssemblyVersion"]) == version(previous["AssemblyVersion"]) and current["DllSha256"] != previous["DllSha256"]:
                 raise ValueError("A changed DLL requires a higher assembly version")
+        for entry, record in zip(entries, records, strict=True):
+            internal = entry["InternalName"]
+            keep_existing_downloads(entry, record, old.get(internal), old_records.get(internal))
     write_json(output / "repo.json", entries)
     write_json(output / "catalogue.lock.json", {"packageRelease": release_tag, "plugins": records})
     (output / "SHA256SUMS.txt").write_text("".join(f"{r['PackageSha256']}  {r['Package']}\n" for r in records), encoding="utf-8")

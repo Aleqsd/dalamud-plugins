@@ -18,6 +18,8 @@ python tools/build_repo.py
 
 Le script contrôle le tag/commit, les empreintes GitHub, le contenu des archives, les versions et la palette d'icônes. Il ne compile ni ne charge les DLL. Les fichiers candidats sont dans `.artifacts/<packageRelease>/`. Le `repo.json` public n'est pas modifié à ce stade.
 
+Les entrées et liens de téléchargement des plugins inchangés sont conservés lorsque leurs métadonnées et leur archive sont identiques au catalogue précédent. Le lot contient toujours les archives vérifiées de tous les plugins ; la nouvelle URL est réservée aux entrées modifiées.
+
 Examiner aussi la version d'assembly de chaque DLL avec `System.Reflection.AssemblyName.GetAssemblyName` et la comparer au manifeste. Vérifier les besoins externes, notamment le relais Codex Monitor. Un changement de DLL doit avoir une version supérieure : un autre fichier sous le même numéro n'est pas une mise à jour détectable.
 
 ## Publier dans le bon ordre
@@ -41,7 +43,7 @@ Le plugin extrait les scripts et crée les données d'exécution sous son dossie
 
 Le relais 0.11.0 apporte les extraits de questions, dont l'affichage est facultatif. Les correctifs 0.11.1 et 0.11.2 le conservent : aucune relance requise pour un utilisateur qui l'a déjà lancé. Pour un relais plus ancien, mentionner la relance depuis **Connexion** pour le relais intégré, ou depuis son dossier après mise à jour pour un relais externe. Le packaging ne doit pas arrêter ni remplacer une instance active.
 
-Cycle & Opener utilise le dépôt source `Aleqsd/cycle-opener`, l'identité `CycleOpener` et la commande `/cycle`. Sa DLL et son manifeste sont à la racine du ZIP ; aucune dépendance supplémentaire n'est nécessaire. Les fiches sont statiques et seul le Mage noir est disponible actuellement. Conserver les limites de validation hors jeu et la portée du guide dans le catalogue.
+Cycle & Opener utilise le dépôt source `Aleqsd/cycle-opener`, l'identité `CycleOpener` et la commande `/cycle`. Sa DLL et son manifeste sont à la racine du ZIP ; aucune dépendance supplémentaire n'est nécessaire. Les fiches statiques couvrent Mage noir et Mage blanc, dans une fenêtre commune avec niveau automatique ou manuel. Les noms des sorts suivent la langue du client ; les explications restent en français. Conserver les limites de validation hors jeu et la portée du guide dans le catalogue.
 
 ## Vérifications de référence
 

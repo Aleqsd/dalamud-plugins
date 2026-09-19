@@ -66,7 +66,7 @@ class InstallerPackagingChecks(unittest.TestCase):
 class ReleasedArchiveChecks(unittest.TestCase):
     original_dll = b"original released DLL"
 
-    def build_release(self, dll=None, standalone_digest=None, archive_digest=None):
+    def build_release(self, dll=None, standalone_digest=None, archive_digest=None, rebuild=None):
         internal = "HotbarAtelier"
         manifest = {"InternalName": internal, "AssemblyVersion": "1.2.3.0",
                     "DalamudApiLevel": 15, "Description": "Example plugin"}
@@ -91,9 +91,20 @@ class ReleasedArchiveChecks(unittest.TestCase):
             (root / "LICENSE").write_bytes(b"MIT")
             (root / "icon.png").write_bytes(icon)
             with patch.object(build_repo, "ROOT", root), \
-                 patch.object(build_repo, "github", side_effect=[metadata, {"sha": "a" * 40}]), \
+                 patch.object(build_repo, "github", side_effect=[metadata, {"sha": "a" * 40}] * 2), \
                  patch.object(build_repo, "fetch", return_value=archive), patch("builtins.print"):
                 output = build_repo.build(config)
+                if rebuild:
+                    previous = build_repo.read_json(output / "repo.json")[0]
+                    for name in ("repo.json", "catalogue.lock.json"):
+                        (root / name).write_bytes((output / name).read_bytes())
+                    config["packageRelease"] = "next-release"
+                    if rebuild == "icon":
+                        (root / "icon.png").write_bytes((Path(__file__).resolve().parents[1] / "icons/MinimapZoom.png").read_bytes())
+                    elif rebuild == "description":
+                        config["plugins"][0]["installationNote"] = "Updated installation instructions"
+                    output = build_repo.build(config)
+                    return previous, build_repo.read_json(output / "repo.json")[0]
             return (output / "HotbarAtelier-1.2.3-dalamud.zip").read_bytes()
 
     def test_zip_only_release_keeps_the_pinned_dll(self):
@@ -111,6 +122,19 @@ class ReleasedArchiveChecks(unittest.TestCase):
     def test_zip_only_release_requires_the_archive_digest(self):
         with self.assertRaisesRegex(ValueError, "Source release digest"):
             self.build_release(archive_digest="0" * 64)
+
+    def test_new_catalogue_keeps_unchanged_plugin_entry(self):
+        previous, current = self.build_release(rebuild="unchanged")
+        self.assertEqual(current, previous)
+
+    def test_repacked_icon_uses_the_new_release(self):
+        previous, current = self.build_release(rebuild="icon")
+        self.assertNotEqual(current["DownloadLinkInstall"], previous["DownloadLinkInstall"])
+        self.assertIn("/next-release/", current["DownloadLinkInstall"])
+
+    def test_updated_metadata_is_not_replaced_by_previous_entry(self):
+        _, current = self.build_release(rebuild="description")
+        self.assertIn("Updated installation instructions", current["Description"])
 
 if __name__ == "__main__":
     unittest.main()
