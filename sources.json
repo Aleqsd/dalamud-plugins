@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-19-3",
+  "packageRelease": "catalogue-2026-09-19-4",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -62,20 +62,20 @@
     {
       "repo": "cycle-opener",
       "id": "CycleOpener",
-      "tag": "v0.2.0",
+      "tag": "v0.2.1",
       "prefix": "",
       "files": [
         "CycleOpener.dll",
         "CycleOpener.json"
       ],
       "image": "docs/images/fiche-express.png",
-      "archive": "CycleOpener-0.2.0.zip",
-      "archiveSha256": "670140588383026f3a870f6587ac1b29f5032f1289e932d431111dcc6429cb2c",
-      "dllSha256": "216c316126cac8ed81d087d0d9c40ccb942248ff642d5750cddc7e8fffa92d03",
-      "publishedAt": "2026-09-19T16:24:35Z",
-      "commit": "1d12e2524b65ef324bf5c4bac0021e2975b80e8c",
+      "archive": "CycleOpener-0.2.1.zip",
+      "archiveSha256": "6660029f320ad8a154fff52030c245e6665acb11941617c630b0bd15077a428c",
+      "dllSha256": "310a918dcd52677c86dc4da9407852bcef4297138a268f858f3b29589591aabd",
+      "publishedAt": "2026-09-19T16:57:05Z",
+      "commit": "b27d1bd32339a7c4ec79d1e23f84004512e8b5b9",
       "icon": "icons/CycleOpener.png",
-      "changelog": "Mage blanc ajouté aux guides Mage noir, du niveau 1 au 100. Cycle et ouverture dans une seule fenêtre, avec niveau Auto / Manuel et paliers rapides. Noms des sorts selon la langue du client ; explications en français. Fermeture accessible même en mode verrouillé. Préférences conservées ; la fenêtre peut être à repositionner.",
+      "changelog": "La proposition d’afficher le guide apparaît uniquement après une baisse de niveau synchronisé en instance PvE, une fois le chargement ou le combat terminé. Plus de popup à la sortie, en ville, en monde ouvert ou sur une hausse de niveau. Les propositions en attente sont annulées dès la sortie ; le guide visible continue de suivre le niveau en mode Auto.",
       "installationNote": "Fiches Mage noir et Mage blanc, sans action automatique ; quêtes de classe et de job supposées terminées."
     }
   ]

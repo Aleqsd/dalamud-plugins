@@ -32,7 +32,7 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 Ouvre `/cycle` pour consulter les fiches **Mage noir et Mage blanc**, du niveau 1 au 100. Cycle et ouverture partagent une seule fenêtre, avec choix du niveau **Auto / Manuel** et du nombre de cibles. Les noms des sorts suivent la langue du client ; les explications restent en français. Ce sont des guides statiques, sans suivi du combat ni action automatique.
 
-![Guide Mage blanc : cycle et ouverture](https://raw.githubusercontent.com/Aleqsd/cycle-opener/1d12e2524b65ef324bf5c4bac0021e2975b80e8c/docs/images/fiche-express.png)
+![Guide Mage blanc : cycle et ouverture](https://raw.githubusercontent.com/Aleqsd/cycle-opener/b27d1bd32339a7c4ec79d1e23f84004512e8b5b9/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 
