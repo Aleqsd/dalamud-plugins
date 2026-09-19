@@ -105,8 +105,8 @@
     "Author": "Aleqsd",
     "Name": "Cycle & Opener",
     "InternalName": "CycleOpener",
-    "AssemblyVersion": "0.3.0.0",
-    "Description": "Guides statiques de cycles, priorités et ouvertures par niveau. Mage noir et Mage blanc, mono/multicible, niveau automatique ou manuel, dans une seule fenêtre. Noms des sorts dans la langue du client ; explications en français. /cycle. Sans suivi du combat. Version expérimentale ; essais en jeu encore à confirmer. Fiches Mage noir et Mage blanc, sans action automatique ; quêtes de classe et de job supposées terminées.",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Guides statiques de cycles, priorités et ouvertures par niveau. 21 jobs de combat, mono/multicible, niveau automatique ou manuel, dans une seule fenêtre. Noms des sorts dans la langue du client ; explications en français. /cycle. Sans suivi du combat. Version expérimentale ; essais en jeu encore à confirmer. Mage bleu exclu pour le moment. Les nouvelles ouvertures sont pédagogiques ; consulter les sources liées pour les variantes optimisées de raid. Aucune action automatique ; quêtes de classe et de job supposées terminées.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "Tags": [
@@ -116,20 +116,20 @@
       "black mage",
       "white mage"
     ],
-    "Punchline": "Cycles et ouvertures par niveau : Mage noir et Mage blanc.",
+    "Punchline": "Cycles et ouvertures par niveau pour 21 jobs de combat.",
     "RepoUrl": "https://github.com/Aleqsd/cycle-opener",
     "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CycleOpener.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/Aleqsd/cycle-opener/f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb/docs/images/fiche-express.png"
+      "https://raw.githubusercontent.com/Aleqsd/cycle-opener/4f8ad6f8a96c948db3c1b4218b2a7a11ada41ef4/docs/images/fiche-express.png"
     ],
-    "LastUpdate": 1789839306,
+    "LastUpdate": 1789844134,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "TestingAssemblyVersion": "0.3.0.0",
+    "TestingAssemblyVersion": "1.0.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-5/CycleOpener-0.3.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-5/CycleOpener-0.3.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-5/CycleOpener-0.3.0-dalamud.zip",
-    "Changelog": "Nouveau panneau compact avec repli, verrouillage, réglages et fermeture dans l’en-tête. Ouverture au-dessus du cycle, répétitions ×N et petites icônes d’aptitudes. Auto / Manuel, niveau et seuils multicibles directement accessibles ; soins Mage blanc dépliables. Préférences conservées. Les popups restent réservées aux baisses de niveau en instance PvE."
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-6/CycleOpener-1.0.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-6/CycleOpener-1.0.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-6/CycleOpener-1.0.0-dalamud.zip",
+    "Changelog": "Fiches pour les 21 jobs de combat et leurs classes de départ, du niveau 1 au 100. Choix précis de 1 à 8 cibles, seuils multicibles, rappels de soins et de protection, sources par job. Les 19 nouvelles ouvertures sont des départs pédagogiques ; les variantes optimisées de raid restent dans les sources liées. Mage bleu exclu pour le moment."
   }
 ]
