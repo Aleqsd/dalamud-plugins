@@ -1,6 +1,6 @@
 # Maintenance
 
-Ce dépôt distribue des archives adaptées à l'installateur Dalamud. Les DLL restent identiques aux releases des trois dépôts sources. Les licences des plugins sont conservées ; le catalogue, ses scripts et ses icônes originales sont sous MIT.
+Ce dépôt distribue des archives adaptées à l'installateur Dalamud. Les DLL restent identiques aux releases des dépôts sources. Les licences des plugins sont conservées ; le catalogue, ses scripts et ses icônes originales sont sous MIT.
 
 ## Préparer une version
 
@@ -41,6 +41,8 @@ Le plugin extrait les scripts et crée les données d'exécution sous son dossie
 
 Le relais 0.11.0 apporte les extraits de questions, dont l'affichage est facultatif. Les correctifs 0.11.1 et 0.11.2 le conservent : aucune relance requise pour un utilisateur qui l'a déjà lancé. Pour un relais plus ancien, mentionner la relance depuis **Connexion** pour le relais intégré, ou depuis son dossier après mise à jour pour un relais externe. Le packaging ne doit pas arrêter ni remplacer une instance active.
 
+Cycle & Opener utilise le dépôt source `Aleqsd/cycle-opener`, l'identité `CycleOpener` et la commande `/cycle`. Sa DLL et son manifeste sont à la racine du ZIP ; aucune dépendance supplémentaire n'est nécessaire. Les fiches sont statiques et seul le Mage noir est disponible actuellement. Conserver les limites de validation hors jeu et la portée du guide dans le catalogue.
+
 ## Vérifications de référence
 
 Le format est fondé sur les [métadonnées Dalamud](https://dalamud.dev/plugin-development/plugin-metadata/), [PluginRepository](https://github.com/goatcorp/Dalamud/blob/master/Dalamud/Plugin/Internal/Types/PluginRepository.cs), [PluginManager](https://github.com/goatcorp/Dalamud/blob/master/Dalamud/Plugin/Internal/PluginManager.cs) et [LocalPluginManifest](https://github.com/goatcorp/Dalamud/blob/master/Dalamud/Plugin/Internal/Types/Manifest/LocalPluginManifest.cs).
@@ -49,10 +51,12 @@ Le contrôle hors jeu reproduit les invariants de packaging utiles : DLL et JSON
 
 ## Icônes
 
-Les trois SVG de `icons/` sont les sources des PNG 256 × 256. Pour les régénérer avec ImageMagick :
+Les SVG de `icons/` sont les sources des PNG 256 × 256. Pour les régénérer avec ImageMagick :
 
 ```powershell
 magick -background none icons/HotbarAtelier.svg -strip -depth 8 -define png:color-type=6 icons/HotbarAtelier.png
 ```
 
 Conserver une silhouette lisible à petite taille, une palette commune et un dessin original. Les captures LMeter et les assets du jeu ne sont pas redistribués.
+
+L'icône Cycle & Opener est copiée depuis [assets/ du commit source](https://github.com/Aleqsd/cycle-opener/tree/7b7c8daceb3dea78640dabf127b84cdad4ca9ed3/assets). Atlas et boussole originaux créés en SVG avec l'aide de Codex, sous la licence MIT du plugin ; aucun asset extrait du jeu. PNG SHA256 : `b3e93655fabbea680917cfcb5a33751799c87691f302ea9c2da138dbabf0294b`.

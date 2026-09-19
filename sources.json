@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-17-1",
+  "packageRelease": "catalogue-2026-09-19-1",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -58,6 +58,25 @@
       "commit": "fc781515c47fcb8bcca674d95a7856052c20163c",
       "icon": "icons/MinimapZoom.png",
       "changelog": "Compatibilité avec le client du 15 septembre. Vérification automatique des fonctions de la mini-carte au lieu d’un blocage par numéro de patch. Les patchs sans changement des éléments vérifiés peuvent passer sans nouvelle version. Incompatibilités détectées toujours bloquées ; profils et réglages conservés."
+    },
+    {
+      "repo": "cycle-opener",
+      "id": "CycleOpener",
+      "tag": "v0.1.1",
+      "prefix": "",
+      "files": [
+        "CycleOpener.dll",
+        "CycleOpener.json"
+      ],
+      "image": "docs/images/fiche-express.png",
+      "archive": "CycleOpener-0.1.1.zip",
+      "archiveSha256": "9aa840d305f5e2798d04373e118555f4ccf5c4e23e13fe9d477ebc3fa558186c",
+      "dllSha256": "80c7a9d6e5f804ab52ef7410a5a03321e56cc4611127a5cb27011895c5bd2696",
+      "publishedAt": "2026-09-19T15:20:23Z",
+      "commit": "7b7c8daceb3dea78640dabf127b84cdad4ca9ed3",
+      "icon": "icons/CycleOpener.png",
+      "changelog": "Première version : fiches Mage noir en français, cycles et ouvertures par niveau. Fiche express et ouverture côte à côte, modes mono et multicible. Proposition facultative au changement de niveau. /cycle pour ouvrir.",
+      "installationNote": "Mage noir uniquement pour le moment. Fiches statiques, sans suivi du combat ni action automatique ; quêtes de job supposées acquises."
     }
   ]
 }

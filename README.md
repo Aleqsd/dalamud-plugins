@@ -1,12 +1,13 @@
 # Plugins FFXIV d'Aleqsd
 
-Un seul dépôt à ajouter dans Dalamud pour installer et mettre à jour les trois plugins.
+Un seul dépôt à ajouter dans Dalamud pour installer et mettre à jour ces plugins.
 
 | | Plugin | Usage |
 | --- | --- | --- |
 | <img src="icons/HotbarAtelier.png" width="48" alt="Hotbar Atelier"> | [Hotbar Atelier](https://github.com/Aleqsd/hotbar-atelier) | Personnaliser les barres d'actions. |
 | <img src="icons/CodexMonitor.png" width="48" alt="Codex Monitor"> | [Codex Monitor](https://github.com/Aleqsd/codex-monitor) | Voir les tâches Codex et leurs notifications en jeu. |
 | <img src="icons/MinimapZoom.png" width="48" alt="Minimap Zoom"> | [Minimap Zoom](https://github.com/Aleqsd/minimap-zoom) | Dézoomer et personnaliser la mini-carte. |
+| <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Consulter les cycles et ouvertures par niveau. Mage noir disponible. |
 
 ## Installation
 
@@ -26,6 +27,14 @@ Si tu utilisais une DLL de développement, désactive cette copie et retire uniq
 Garde la même URL. Lorsqu'une nouvelle version est publiée **dans ce catalogue**, Dalamud la repère et propose de la mettre à jour. Plus besoin de télécharger les DLL ou de modifier leurs chemins. Le moment de la mise à jour dépend de tes réglages Dalamud ; tu peux aussi la lancer depuis la liste des plugins.
 
 Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa version et son archive.
+
+## Cycle & Opener
+
+Ouvre `/cycle` pour consulter les fiches Mage noir en français : cycle et ouverture côte à côte, selon le niveau et le nombre de cibles choisi. Ce sont des guides statiques, sans suivi du combat ni action automatique.
+
+![Fiche express et ouverture](https://raw.githubusercontent.com/Aleqsd/cycle-opener/7b7c8daceb3dea78640dabf127b84cdad4ca9ed3/docs/images/fiche-express.png)
+
+*Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 
 ## Codex Monitor
 

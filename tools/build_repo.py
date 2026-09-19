@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "sources.json"
 MAX_BYTES = 32 * 1024 * 1024
-ALLOWED_REPOS = {"hotbar-atelier", "codex-monitor", "minimap-zoom"}
+ALLOWED_REPOS = {"hotbar-atelier", "codex-monitor", "minimap-zoom", "cycle-opener"}
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
