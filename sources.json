@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-19-4",
+  "packageRelease": "catalogue-2026-09-19-5",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -62,20 +62,20 @@
     {
       "repo": "cycle-opener",
       "id": "CycleOpener",
-      "tag": "v0.2.1",
+      "tag": "v0.3.0",
       "prefix": "",
       "files": [
         "CycleOpener.dll",
         "CycleOpener.json"
       ],
       "image": "docs/images/fiche-express.png",
-      "archive": "CycleOpener-0.2.1.zip",
-      "archiveSha256": "6660029f320ad8a154fff52030c245e6665acb11941617c630b0bd15077a428c",
-      "dllSha256": "310a918dcd52677c86dc4da9407852bcef4297138a268f858f3b29589591aabd",
-      "publishedAt": "2026-09-19T16:57:05Z",
-      "commit": "b27d1bd32339a7c4ec79d1e23f84004512e8b5b9",
+      "archive": "CycleOpener-0.3.0.zip",
+      "archiveSha256": "3a3417d2d1dcfb422bbe90b8fb83114edac672e56a4f674e23aaac5b37f3c416",
+      "dllSha256": "6ef2727a010935d19743094552ba3ed9d266fdaf66fb5514da881b8e4ba875a5",
+      "publishedAt": "2026-09-19T17:35:06Z",
+      "commit": "f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb",
       "icon": "icons/CycleOpener.png",
-      "changelog": "La proposition d’afficher le guide apparaît uniquement après une baisse de niveau synchronisé en instance PvE, une fois le chargement ou le combat terminé. Plus de popup à la sortie, en ville, en monde ouvert ou sur une hausse de niveau. Les propositions en attente sont annulées dès la sortie ; le guide visible continue de suivre le niveau en mode Auto.",
+      "changelog": "Nouveau panneau compact avec repli, verrouillage, réglages et fermeture dans l’en-tête. Ouverture au-dessus du cycle, répétitions ×N et petites icônes d’aptitudes. Auto / Manuel, niveau et seuils multicibles directement accessibles ; soins Mage blanc dépliables. Préférences conservées. Les popups restent réservées aux baisses de niveau en instance PvE.",
       "installationNote": "Fiches Mage noir et Mage blanc, sans action automatique ; quêtes de classe et de job supposées terminées."
     }
   ]
