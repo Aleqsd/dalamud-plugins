@@ -30,9 +30,9 @@ Une release GitHub seule ne suffit pas : le catalogue est mis à jour avec sa ve
 
 ## Cycle & Opener
 
-Ouvre `/cycle` pour consulter les fiches Mage noir en français : cycle et ouverture côte à côte, selon le niveau et le nombre de cibles choisi. Ce sont des guides statiques, sans suivi du combat ni action automatique.
+Ouvre `/cycle` pour consulter les fiches Mage noir en français : cycle et ouverture côte à côte, selon le niveau et le nombre de cibles choisi. Les boutons ouvrent le cycle, l’ouverture ou les deux, avec fermeture indépendante. Ce sont des guides statiques, sans suivi du combat ni action automatique.
 
-![Fiche express et ouverture](https://raw.githubusercontent.com/Aleqsd/cycle-opener/7b7c8daceb3dea78640dabf127b84cdad4ca9ed3/docs/images/fiche-express.png)
+![Fiche express de Cycle & Opener](https://raw.githubusercontent.com/Aleqsd/cycle-opener/55fc8b72cd3fac1ba063aea0ddb3bf4775b07f1d/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
 
