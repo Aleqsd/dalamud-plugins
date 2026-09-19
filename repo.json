@@ -29,9 +29,9 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.6.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/HotbarAtelier-0.6.0-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/HotbarAtelier-0.6.0-dalamud.zip",
     "Changelog": "Presets, édition groupée, copie partielle, annuler/rétablir et profils par job/personnage. Bordures, disposition et visibilité améliorées ; import avec aperçu. Démarrage automatique facultatif, réglages fermés au chargement."
   },
   {
@@ -63,9 +63,9 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.11.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CodexMonitor-0.11.2-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CodexMonitor-0.11.2-dalamud.zip",
     "Changelog": "Texte des mini HUD plus lisible : Expressway locale, contour noir réglable et glyphes plus nets. Bouton Texte lisible comme LMeter dans Réglages → HUD. Polices personnalisées, fond et position conservés. Relais inchangé depuis la 0.11.0."
   },
   {
@@ -96,9 +96,39 @@
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": "0.5.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
-    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
-    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-17-1/MinimapZoom-0.5.2-dalamud.zip",
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/MinimapZoom-0.5.2-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/MinimapZoom-0.5.2-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/MinimapZoom-0.5.2-dalamud.zip",
     "Changelog": "Compatibilité avec le client du 15 septembre. Vérification automatique des fonctions de la mini-carte au lieu d’un blocage par numéro de patch. Les patchs sans changement des éléments vérifiés peuvent passer sans nouvelle version. Incompatibilités détectées toujours bloquées ; profils et réglages conservés."
+  },
+  {
+    "Author": "Aleqsd",
+    "Name": "Cycle & Opener",
+    "InternalName": "CycleOpener",
+    "AssemblyVersion": "0.1.1.0",
+    "Description": "Guides de cycles, priorités et ouvertures par niveau. Première version : Mage noir en français, mono/multicible, Fiche express et ouverture côte à côte. /cycle. Lecture libre, sans suivi du combat. Version expérimentale ; essais en jeu encore à confirmer. Mage noir uniquement pour le moment. Fiches statiques, sans suivi du combat ni action automatique ; quêtes de job supposées acquises.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "guide",
+      "rotation",
+      "leveling",
+      "black mage"
+    ],
+    "Punchline": "Cycles et ouvertures par niveau. Mage noir disponible.",
+    "RepoUrl": "https://github.com/Aleqsd/cycle-opener",
+    "IconUrl": "https://raw.githubusercontent.com/Aleqsd/dalamud-plugins/main/icons/CycleOpener.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/Aleqsd/cycle-opener/7b7c8daceb3dea78640dabf127b84cdad4ca9ed3/docs/images/fiche-express.png"
+    ],
+    "LastUpdate": 1789831223,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "TestingAssemblyVersion": "0.1.1.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CycleOpener-0.1.1-dalamud.zip",
+    "DownloadLinkUpdate": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CycleOpener-0.1.1-dalamud.zip",
+    "DownloadLinkTesting": "https://github.com/Aleqsd/dalamud-plugins/releases/download/catalogue-2026-09-19-1/CycleOpener-0.1.1-dalamud.zip",
+    "Changelog": "Première version : fiches Mage noir en français, cycles et ouvertures par niveau. Fiche express et ouverture côte à côte, modes mono et multicible. Proposition facultative au changement de niveau. /cycle pour ouvrir."
   }
 ]
