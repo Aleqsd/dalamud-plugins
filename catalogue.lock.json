@@ -1,5 +1,5 @@
 {
-  "packageRelease": "catalogue-2026-09-19-4",
+  "packageRelease": "catalogue-2026-09-19-5",
   "plugins": [
     {
       "InternalName": "HotbarAtelier",
@@ -45,17 +45,17 @@
     },
     {
       "InternalName": "CycleOpener",
-      "AssemblyVersion": "0.2.1.0",
+      "AssemblyVersion": "0.3.0.0",
       "DalamudApiLevel": 15,
-      "SourceCommit": "b27d1bd32339a7c4ec79d1e23f84004512e8b5b9",
-      "SourceRelease": "https://github.com/Aleqsd/cycle-opener/releases/tag/v0.2.1",
-      "SourceArchiveSha256": "6660029f320ad8a154fff52030c245e6665acb11941617c630b0bd15077a428c",
-      "DllSha256": "310a918dcd52677c86dc4da9407852bcef4297138a268f858f3b29589591aabd",
-      "Package": "CycleOpener-0.2.1-dalamud.zip",
-      "PackageSha256": "ce9cc31fec7e6ce66e1b14b086c04931389ac98f12b7c8f60d7775c28123251b",
+      "SourceCommit": "f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb",
+      "SourceRelease": "https://github.com/Aleqsd/cycle-opener/releases/tag/v0.3.0",
+      "SourceArchiveSha256": "3a3417d2d1dcfb422bbe90b8fb83114edac672e56a4f674e23aaac5b37f3c416",
+      "DllSha256": "6ef2727a010935d19743094552ba3ed9d266fdaf66fb5514da881b8e4ba875a5",
+      "Package": "CycleOpener-0.3.0-dalamud.zip",
+      "PackageSha256": "b8b0fc53caf53ea7a238a29222295e53637d1e4d86a744cbf3c9552b53d37dd3",
       "Icon": "icons/CycleOpener.png",
       "IconSha256": "b3e93655fabbea680917cfcb5a33751799c87691f302ea9c2da138dbabf0294b",
-      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/cycle-opener/b27d1bd32339a7c4ec79d1e23f84004512e8b5b9/docs/images/fiche-express.png"
+      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/cycle-opener/f5e0c8ad92a3b11f5bc6e23b074ef859ecd493fb/docs/images/fiche-express.png"
     }
   ]
 }
