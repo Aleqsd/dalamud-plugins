@@ -1,5 +1,5 @@
 {
-  "packageRelease": "catalogue-2026-09-19-7",
+  "packageRelease": "catalogue-2026-09-22-1",
   "plugins": [
     {
       "InternalName": "HotbarAtelier",
@@ -56,6 +56,21 @@
       "Icon": "icons/CycleOpener.png",
       "IconSha256": "b3e93655fabbea680917cfcb5a33751799c87691f302ea9c2da138dbabf0294b",
       "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/cycle-opener/343c33d5dc830373fc48f4f4634b13bc3af18254/docs/images/fiche-express.png"
+    },
+    {
+      "InternalName": "AetherCompass",
+      "AssemblyVersion": "0.2.0.0",
+      "DalamudApiLevel": 15,
+      "SourceCommit": "86314149f1e6796c3a73013586b3f50e9fe35c5d",
+      "SourceRelease": "https://github.com/Aleqsd/aether-compass/releases/tag/v0.2.0",
+      "SourceArchiveSha256": "50c8a27ad33476000a0789912c0a8190db4ff9382031a8adaa1d487eda57174a",
+      "DllSha256": "f1d836320903bde0640b2049196967683c6aca134a7d7371621962b929a5f5c1",
+      "Package": "AetherCompass-0.2.0-dalamud.zip",
+      "PackageSha256": "79da66e0952202aa741b7347d3be0f828ce80db0f3da290dff69133ee2b061b6",
+      "Icon": "icons/AetherCompass.png",
+      "IconSha256": "88d5f3f24c2565690b13952a63c96639daaacdc2257d6575e6aa2473169fcaaf",
+      "ImageUrl": "https://raw.githubusercontent.com/Aleqsd/aether-compass/86314149f1e6796c3a73013586b3f50e9fe35c5d/docs/images/weekly-observed.png"
     }
   ]
 }
+
