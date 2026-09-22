@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "sources.json"
 MAX_BYTES = 32 * 1024 * 1024
-ALLOWED_REPOS = {"hotbar-atelier", "codex-monitor", "minimap-zoom", "cycle-opener"}
+ALLOWED_REPOS = {"hotbar-atelier", "codex-monitor", "minimap-zoom", "cycle-opener", "aether-compass"}
 DOWNLOAD_LINKS = ("DownloadLinkInstall", "DownloadLinkUpdate", "DownloadLinkTesting")
 
 def digest(data):

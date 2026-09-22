@@ -1,6 +1,6 @@
 {
   "repository": "Aleqsd/dalamud-plugins",
-  "packageRelease": "catalogue-2026-09-19-7",
+  "packageRelease": "catalogue-2026-09-22-1",
   "plugins": [
     {
       "repo": "hotbar-atelier",
@@ -77,6 +77,26 @@
       "icon": "icons/CycleOpener.png",
       "changelog": "Ouverture et cycle toujours réunis. Prérequis théoriques affichés sous les actions. Choix des jobs par rôle et favoris. /cycle ouvre le guide ; /cycle config ouvre les réglages. Engrenage et cadenas clarifiés. Rappels Double Mise et Perfectio corrigés. Préférences conservées.",
       "installationNote": "Mage bleu exclu pour le moment. Les nouvelles ouvertures sont pédagogiques ; consulter les sources liées pour les variantes optimisées de raid. Aucune action automatique ; quêtes de classe et de job supposées terminées."
+    },
+    {
+      "repo": "aether-compass",
+      "id": "AetherCompass",
+      "tag": "v0.2.0",
+      "prefix": "",
+      "files": [
+        "AetherCompass.dll",
+        "AetherCompass.Core.dll",
+        "AetherCompass.deps.json",
+        "AetherCompass.json"
+      ],
+      "image": "docs/images/weekly-observed.png",
+      "archive": "AetherCompass-0.2.0.zip",
+      "archiveSha256": "50c8a27ad33476000a0789912c0a8190db4ff9382031a8adaa1d487eda57174a",
+      "dllSha256": "f1d836320903bde0640b2049196967683c6aca134a7d7371621962b929a5f5c1",
+      "publishedAt": "2026-09-20T20:53:15Z",
+      "commit": "86314149f1e6796c3a73013586b3f50e9fe35c5d",
+      "icon": "icons/AetherCompass.png",
+      "changelog": "Aether Compass 0.2.0 : panneau compact inspiré de LMeter pour les priorités niveau 100, l'équipement, l'épopée, les accès et les activités hebdomadaires. Heavy Holoblade, Ranperre Coin et les armures de Windurst peuvent être marqués automatiquement uniquement lorsqu'un gain net est confirmé dans le contenu exact. Provenance et heure visibles ; les acquisitions anciennes ou incertaines restent inconnues. /goals ou /aethercompass weekly."
     }
   ]
 }

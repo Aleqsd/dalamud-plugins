@@ -8,6 +8,7 @@ Un seul dépôt à ajouter dans Dalamud pour installer et mettre à jour ces plu
 | <img src="icons/CodexMonitor.png" width="48" alt="Codex Monitor"> | [Codex Monitor](https://github.com/Aleqsd/codex-monitor) | Voir les tâches Codex et leurs notifications en jeu. |
 | <img src="icons/MinimapZoom.png" width="48" alt="Minimap Zoom"> | [Minimap Zoom](https://github.com/Aleqsd/minimap-zoom) | Dézoomer et personnaliser la mini-carte. |
 | <img src="icons/CycleOpener.png" width="48" alt="Cycle & Opener"> | [Cycle & Opener](https://github.com/Aleqsd/cycle-opener) | Cycles et ouvertures par niveau pour 21 jobs de combat, hors Mage bleu. |
+| <img src="icons/AetherCompass.png" width="48" alt="Aether Compass"> | [Aether Compass](https://github.com/Aleqsd/aether-compass) | Priorités de progression niveau 100, équipement, quêtes et weekly. |
 
 ## Installation
 
@@ -37,6 +38,16 @@ Les nouvelles ouvertures sont des départs pédagogiques. Les variantes optimis�
 ![Guide Pictomancien : ouverture, cycle et prérequis](https://raw.githubusercontent.com/Aleqsd/cycle-opener/343c33d5dc830373fc48f4f4634b13bc3af18254/docs/images/fiche-express.png)
 
 *Rendu du plugin ImGui hors jeu ; intégration FFXIV encore à confirmer.*
+
+## Aether Compass
+
+**Aether Compass 0.2.0** propose un panneau compact inspiré de LMeter pour classer les prochaines étapes d'un personnage niveau 100 : épopée, accès, équipement, Expert, Heavyweight, Windurst, Extrême et Savage. Les objectifs hebdomadaires affichent séparément l'état du jeu, une récompense observée ou une déclaration manuelle.
+
+L'observation automatique des récompenses couvre Heavy Holoblade, Ranperre Coin et les armures de Windurst lorsqu'un gain net est confirmé dans le contenu exact. Une possession ancienne, un clear sans butin ou un déplacement d'objet reste inconnu. Les données restent locales et séparées par personnage. `/goals` ouvre le panneau ; `/aethercompass weekly` ouvre le suivi hebdomadaire.
+
+![Suivi des récompenses observées dans Aether Compass](https://raw.githubusercontent.com/Aleqsd/aether-compass/86314149f1e6796c3a73013586b3f50e9fe35c5d/docs/images/weekly-observed.png)
+
+*Rendu ImGui réel avec données fictives, hors jeu. La version reste expérimentale jusqu'à la validation en jeu.*
 
 ## Codex Monitor
 
